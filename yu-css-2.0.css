@@ -1,0 +1,9330 @@
+:root {
+    --xsmall: 4px;
+    --small: 8px;
+    --medium: 16px;
+    --large: 32px;
+    --xlarge: 64px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* les panels */
+
+.panel-1 {
+    margin-top: var(--xsmall);
+    margin-bottom: var(--xsmall);
+}
+
+.panel-2 {
+    margin-top: var(--small);
+    margin-bottom: var(--small);
+}
+
+.panel-3 {
+    margin-top: var(--medium);
+    margin-bottom: var(--medium);
+}
+
+.panel-4 {
+    margin-top: var(--large);
+    margin-bottom: var(--large);
+}
+
+.panel-5 {
+    margin-top: var(--xlarge);
+    margin-bottom: var(--xlarge);
+}
+
+/* Les cards */
+
+.cards-1 {
+    box-shadow: silver 5px 5px 15px 5px;
+}
+
+.cards-2 {
+    box-shadow: silver 6px 6px 18px 6px;
+}
+
+.cards-3 {
+    box-shadow: silver 7px 7px 21px 7px;
+}
+
+.cards-4 {
+    box-shadow: silver 8px 8px 24px 8px;
+}
+
+.cards-5 {
+    box-shadow: silver 9px 9px 27px 9px;
+}
+
+.cards-6 {
+    box-shadow: silver 10px 10px 30px 10px;
+}
+
+/* Les bordures en rond */
+
+.rounded-1 {
+    border-radius: var(--xsmall);
+}
+
+.rounded-2 {
+    border-radius: var(--small);
+}
+
+.rounded-3 {
+    border-radius: var(--medium);
+}
+
+.rounded-4 {
+    border-radius: var(--large);
+}
+
+.rounded-5 {
+    border-radius: var(--xlarge);
+}
+
+/* Les containers */
+
+.container-1 {
+    padding: var(--xsmall);
+}
+
+.container-2 {
+    padding: var(--small);
+}
+
+.container-3 {
+    padding: var(--medium);
+}
+
+.container-4 {
+    padding: var(--large);
+}
+
+.container-5 {
+    padding: var(--xlarge);
+}
+
+/* Contains All borders classes over here */
+
+/* All blacks */
+
+.border-all-dashed-black {
+    border: 1px dashed #000000;
+}
+
+.border-all-dotted-black {
+    border: 1px dotted #000000;
+}
+
+.border-all-solid-black {
+    border: 1px solid #000000;
+}
+
+.border-all-double-black {
+    border: 1px double #000000;
+}
+
+.border-all-groove-black {
+    border: 1px groove #000000;
+}
+
+/* left blacks */
+
+.border-left-dashed-black {
+    border-left: 1px dashed #000000;
+}
+
+.border-left-dotted-black {
+    border-left: 1px dotted #000000;
+}
+
+.border-left-solid-black {
+    border-left: 1px solid #000000;
+}
+
+.border-left-double-black {
+    border-left: 1px double #000000;
+}
+
+.border-left-groove-black {
+    border-left: 1px groove #000000;
+}
+
+/* right blacks */
+
+.border-right-dashed-black {
+    border-right: 1px dashed #000000;
+}
+
+.border-right-dotted-black {
+    border-right: 1px dotted #000000;
+}
+
+.border-right-solid-black {
+    border-right: 1px solid #000000;
+}
+
+.border-right-double-black {
+    border-right: 1px double #000000;
+}
+
+.border-right-groove-black {
+    border-right: 1px groove #000000;
+}
+
+/* top blacks */
+
+.border-top-dashed-black {
+    border-top: 1px dashed #000000;
+}
+
+.border-top-dotted-black {
+    border-top: 1px dotted #000000;
+}
+
+.border-top-solid-black {
+    border-top: 1px solid #000000;
+}
+
+.border-top-double-black {
+    border-top: 1px double #000000;
+}
+
+.border-top-groove-black {
+    border-top: 1px groove #000000;
+}
+
+/* bottom blacks */
+
+.border-bottom-dashed-black {
+    border-bottom: 1px dashed #000000;
+}
+
+.border-bottom-dotted-black {
+    border-bottom: 1px dotted #000000;
+}
+
+.border-bottom-solid-black {
+    border-bottom: 1px solid #000000;
+}
+
+.border-bottom-double-black {
+    border-bottom: 1px double #000000;
+}
+
+.border-bottom-groove-black {
+    border-bottom: 1px groove #000000;
+}
+
+/* All grays */
+
+.border-all-dashed-gray {
+    border: 1px dashed #808080;
+}
+
+.border-all-dotted-gray {
+    border: 1px dotted #808080;
+}
+
+.border-all-solid-gray {
+    border: 1px solid #808080;
+}
+
+.border-all-double-gray {
+    border: 1px double #808080;
+}
+
+.border-all-groove-gray {
+    border: 1px groove #808080;
+}
+
+/* left grays */
+
+.border-left-dashed-gray {
+    border-left: 1px dashed #808080;
+}
+
+.border-left-dotted-gray {
+    border-left: 1px dotted #808080;
+}
+
+.border-left-solid-gray {
+    border-left: 1px solid #808080;
+}
+
+.border-left-double-gray {
+    border-left: 1px double #808080;
+}
+
+.border-left-groove-gray {
+    border-left: 1px groove #808080;
+}
+
+/* right grays */
+
+.border-right-dashed-gray {
+    border-right: 1px dashed #808080;
+}
+
+.border-right-dotted-gray {
+    border-right: 1px dotted #808080;
+}
+
+.border-right-solid-gray {
+    border-right: 1px solid #808080;
+}
+
+.border-right-double-gray {
+    border-right: 1px double #808080;
+}
+
+.border-right-groove-gray {
+    border-right: 1px groove #808080;
+}
+
+/* top grays */
+
+.border-top-dashed-gray {
+    border-top: 1px dashed #808080;
+}
+
+.border-top-dotted-gray {
+    border-top: 1px dotted #808080;
+}
+
+.border-top-solid-gray {
+    border-top: 1px solid #808080;
+}
+
+.border-top-double-gray {
+    border-top: 1px double #808080;
+}
+
+.border-top-groove-gray {
+    border-top: 1px groove #808080;
+}
+
+/* bottom grays */
+
+.border-bottom-dashed-gray {
+    border-bottom: 1px dashed #808080;
+}
+
+.border-bottom-dotted-gray {
+    border-bottom: 1px dotted #808080;
+}
+
+.border-bottom-solid-gray {
+    border-bottom: 1px solid #808080;
+}
+
+.border-bottom-double-gray {
+    border-bottom: 1px double #808080;
+}
+
+.border-bottom-groove-gray {
+    border-bottom: 1px groove #808080;
+}
+
+/* All whites */
+
+.border-all-dashed-white {
+    border: 1px dashed #ffffff;
+}
+
+.border-all-dotted-white {
+    border: 1px dotted #ffffff;
+}
+
+.border-all-solid-white {
+    border: 1px solid #ffffff;
+}
+
+.border-all-double-white {
+    border: 1px double #ffffff;
+}
+
+.border-all-groove-white {
+    border: 1px groove #ffffff;
+}
+
+/* left whites */
+
+.border-left-dashed-white {
+    border-left: 1px dashed #ffffff;
+}
+
+.border-left-dotted-white {
+    border-left: 1px dotted #ffffff;
+}
+
+.border-left-solid-white {
+    border-left: 1px solid #ffffff;
+}
+
+.border-left-double-white {
+    border-left: 1px double #ffffff;
+}
+
+.border-left-groove-white {
+    border-left: 1px groove #ffffff;
+}
+
+/* right whites */
+
+.border-right-dashed-white {
+    border-right: 1px dashed #ffffff;
+}
+
+.border-right-dotted-white {
+    border-right: 1px dotted #ffffff;
+}
+
+.border-right-solid-white {
+    border-right: 1px solid #ffffff;
+}
+
+.border-right-double-white {
+    border-right: 1px double #ffffff;
+}
+
+.border-right-groove-white {
+    border-right: 1px groove #ffffff;
+}
+
+/* top whites */
+
+.border-top-dashed-white {
+    border-top: 1px dashed #ffffff;
+}
+
+.border-top-dotted-white {
+    border-top: 1px dotted #ffffff;
+}
+
+.border-top-solid-white {
+    border-top: 1px solid #ffffff;
+}
+
+.border-top-double-white {
+    border-top: 1px double #ffffff;
+}
+
+.border-top-groove-white {
+    border-top: 1px groove #ffffff;
+}
+
+/* bottom whites */
+
+.border-bottom-dashed-white {
+    border-bottom: 1px dashed #ffffff;
+}
+
+.border-bottom-dotted-white {
+    border-bottom: 1px dotted #ffffff;
+}
+
+.border-bottom-solid-white {
+    border-bottom: 1px solid #ffffff;
+}
+
+.border-bottom-double-white {
+    border-bottom: 1px double #ffffff;
+}
+
+.border-bottom-groove-white {
+    border-bottom: 1px groove #ffffff;
+}
+
+/* All reds */
+
+.border-all-dashed-red {
+    border: 1px dashed #ff0000;
+}
+
+.border-all-dotted-red {
+    border: 1px dotted #ff0000;
+}
+
+.border-all-solid-red {
+    border: 1px solid #ff0000;
+}
+
+.border-all-double-red {
+    border: 1px double #ff0000;
+}
+
+.border-all-groove-red {
+    border: 1px groove #ff0000;
+}
+
+/* left reds */
+
+.border-left-dashed-red {
+    border-left: 1px dashed #ff0000;
+}
+
+.border-left-dotted-red {
+    border-left: 1px dotted #ff0000;
+}
+
+.border-left-solid-red {
+    border-left: 1px solid #ff0000;
+}
+
+.border-left-double-red {
+    border-left: 1px double #ff0000;
+}
+
+.border-left-groove-red {
+    border-left: 1px groove #ff0000;
+}
+
+/* right reds */
+
+.border-right-dashed-red {
+    border-right: 1px dashed #ff0000;
+}
+
+.border-right-dotted-red {
+    border-right: 1px dotted #ff0000;
+}
+
+.border-right-solid-red {
+    border-right: 1px solid #ff0000;
+}
+
+.border-right-double-red {
+    border-right: 1px double #ff0000;
+}
+
+.border-right-groove-red {
+    border-right: 1px groove #ff0000;
+}
+
+/* top reds */
+
+.border-top-dashed-red {
+    border-top: 1px dashed #ff0000;
+}
+
+.border-top-dotted-red {
+    border-top: 1px dotted #ff0000;
+}
+
+.border-top-solid-red {
+    border-top: 1px solid #ff0000;
+}
+
+.border-top-double-red {
+    border-top: 1px double #ff0000;
+}
+
+.border-top-groove-red {
+    border-top: 1px groove #ff0000;
+}
+
+/* bottom reds */
+
+.border-bottom-dashed-red {
+    border-bottom: 1px dashed #ff0000;
+}
+
+.border-bottom-dotted-red {
+    border-bottom: 1px dotted #ff0000;
+}
+
+.border-bottom-solid-red {
+    border-bottom: 1px solid #ff0000;
+}
+
+.border-bottom-double-red {
+    border-bottom: 1px double #ff0000;
+}
+
+.border-bottom-groove-red {
+    border-bottom: 1px groove #ff0000;
+}
+
+/* All oranges */
+
+.border-all-dashed-orange {
+    border: 1px dashed #ff6a00;
+}
+
+.border-all-dotted-orange {
+    border: 1px dotted #ff6a00;
+}
+
+.border-all-solid-orange {
+    border: 1px solid #ff6a00;
+}
+
+.border-all-double-orange {
+    border: 1px double #ff6a00;
+}
+
+.border-all-groove-orange {
+    border: 1px groove #ff6a00;
+}
+
+/* left oranges */
+
+.border-left-dashed-orange {
+    border-left: 1px dashed #ff6a00;
+}
+
+.border-left-dotted-orange {
+    border-left: 1px dotted #ff6a00;
+}
+
+.border-left-solid-orange {
+    border-left: 1px solid #ff6a00;
+}
+
+.border-left-double-orange {
+    border-left: 1px double #ff6a00;
+}
+
+.border-left-groove-orange {
+    border-left: 1px groove #ff6a00;
+}
+
+/* right oranges */
+
+.border-right-dashed-orange {
+    border-right: 1px dashed #ff6a00;
+}
+
+.border-right-dotted-orange {
+    border-right: 1px dotted #ff6a00;
+}
+
+.border-right-solid-orange {
+    border-right: 1px solid #ff6a00;
+}
+
+.border-right-double-orange {
+    border-right: 1px double #ff6a00;
+}
+
+.border-right-groove-orange {
+    border-right: 1px groove #ff6a00;
+}
+
+/* top oranges */
+
+.border-top-dashed-orange {
+    border-top: 1px dashed #ff6a00;
+}
+
+.border-top-dotted-orange {
+    border-top: 1px dotted #ff6a00;
+}
+
+.border-top-solid-orange {
+    border-top: 1px solid #ff6a00;
+}
+
+.border-top-double-orange {
+    border-top: 1px double #ff6a00;
+}
+
+.border-top-groove-orange {
+    border-top: 1px groove #ff6a00;
+}
+
+/* bottom oranges */
+
+.border-bottom-dashed-orange {
+    border-bottom: 1px dashed #ff6a00;
+}
+
+.border-bottom-dotted-orange {
+    border-bottom: 1px dotted #ff6a00;
+}
+
+.border-bottom-solid-orange {
+    border-bottom: 1px solid #ff6a00;
+}
+
+.border-bottom-double-orange {
+    border-bottom: 1px double #ff6a00;
+}
+
+.border-bottom-groove-orange {
+    border-bottom: 1px groove #ff6a00;
+}
+
+/* All greens */
+
+.border-all-dashed-green {
+    border: 1px dashed #4cff00;
+}
+
+.border-all-dotted-green {
+    border: 1px dotted #4cff00;
+}
+
+.border-all-solid-green {
+    border: 1px solid #4cff00;
+}
+
+.border-all-double-green {
+    border: 1px double #4cff00;
+}
+
+.border-all-groove-green {
+    border: 1px groove #4cff00;
+}
+
+/* left greens */
+
+.border-left-dashed-green {
+    border-left: 1px dashed #4cff00;
+}
+
+.border-left-dotted-green {
+    border-left: 1px dotted #4cff00;
+}
+
+.border-left-solid-green {
+    border-left: 1px solid #4cff00;
+}
+
+.border-left-double-green {
+    border-left: 1px double #4cff00;
+}
+
+.border-left-groove-green {
+    border-left: 1px groove #4cff00;
+}
+
+/* right greens */
+
+.border-right-dashed-green {
+    border-right: 1px dashed #4cff00;
+}
+
+.border-right-dotted-green {
+    border-right: 1px dotted #4cff00;
+}
+
+.border-right-solid-green {
+    border-right: 1px solid #4cff00;
+}
+
+.border-right-double-green {
+    border-right: 1px double #4cff00;
+}
+
+.border-right-groove-green {
+    border-right: 1px groove #4cff00;
+}
+
+/* top greens */
+
+.border-top-dashed-green {
+    border-top: 1px dashed #4cff00;
+}
+
+.border-top-dotted-green {
+    border-top: 1px dotted #4cff00;
+}
+
+.border-top-solid-green {
+    border-top: 1px solid #4cff00;
+}
+
+.border-top-double-green {
+    border-top: 1px double #4cff00;
+}
+
+.border-top-groove-green {
+    border-top: 1px groove #4cff00;
+}
+
+/* bottom greens */
+
+.border-bottom-dashed-green {
+    border-bottom: 1px dashed #4cff00;
+}
+
+.border-bottom-dotted-green {
+    border-bottom: 1px dotted #4cff00;
+}
+
+.border-bottom-solid-green {
+    border-bottom: 1px solid #4cff00;
+}
+
+.border-bottom-double-green {
+    border-bottom: 1px double #4cff00;
+}
+
+.border-bottom-groove-green {
+    border-bottom: 1px groove #4cff00;
+}
+
+/* All blues */
+
+.border-all-dashed-blue {
+    border: 1px dashed #0094ff;
+}
+
+.border-all-dotted-blue {
+    border: 1px dotted #0094ff;
+}
+
+.border-all-solid-blue {
+    border: 1px solid #0094ff;
+}
+
+.border-all-double-blue {
+    border: 1px double #0094ff;
+}
+
+.border-all-groove-blue {
+    border: 1px groove #0094ff;
+}
+
+/* left blues */
+
+.border-left-dashed-blue {
+    border-left: 1px dashed #0094ff;
+}
+
+.border-left-dotted-blue {
+    border-left: 1px dotted #0094ff;
+}
+
+.border-left-solid-blue {
+    border-left: 1px solid #0094ff;
+}
+
+.border-left-double-blue {
+    border-left: 1px double #0094ff;
+}
+
+.border-left-groove-blue {
+    border-left: 1px groove #0094ff;
+}
+
+/* right blues */
+
+.border-right-dashed-blue {
+    border-right: 1px dashed #0094ff;
+}
+
+.border-right-dotted-blue {
+    border-right: 1px dotted #0094ff;
+}
+
+.border-right-solid-blue {
+    border-right: 1px solid #0094ff;
+}
+
+.border-right-double-blue {
+    border-right: 1px double #0094ff;
+}
+
+.border-right-groove-blue {
+    border-right: 1px groove #0094ff;
+}
+
+/* top blues */
+
+.border-top-dashed-blue {
+    border-top: 1px dashed #0094ff;
+}
+
+.border-top-dotted-blue {
+    border-top: 1px dotted #0094ff;
+}
+
+.border-top-solid-blue {
+    border-top: 1px solid #0094ff;
+}
+
+.border-top-double-blue {
+    border-top: 1px double #0094ff;
+}
+
+.border-top-groove-blue {
+    border-top: 1px groove #0094ff;
+}
+
+/* bottom blues */
+
+.border-bottom-dashed-blue {
+    border-bottom: 1px dashed #0094ff;
+}
+
+.border-bottom-dotted-blue {
+    border-bottom: 1px dotted #0094ff;
+}
+
+.border-bottom-solid-blue {
+    border-bottom: 1px solid #0094ff;
+}
+
+.border-bottom-double-blue {
+    border-bottom: 1px double #0094ff;
+}
+
+.border-bottom-groove-blue {
+    border-bottom: 1px groove #0094ff;
+}
+
+/* All purples */
+
+.border-all-dashed-purple {
+    border: 1px dashed #b200ff;
+}
+
+.border-all-dotted-purple {
+    border: 1px dotted #b200ff;
+}
+
+.border-all-solid-purple {
+    border: 1px solid #b200ff;
+}
+
+.border-all-double-purple {
+    border: 1px double #b200ff;
+}
+
+.border-all-groove-purple {
+    border: 1px groove #b200ff;
+}
+
+/* left purples */
+
+.border-left-dashed-purple {
+    border-left: 1px dashed #b200ff;
+}
+
+.border-left-dotted-purple {
+    border-left: 1px dotted #b200ff;
+}
+
+.border-left-solid-purple {
+    border-left: 1px solid #b200ff;
+}
+
+.border-left-double-purple {
+    border-left: 1px double #b200ff;
+}
+
+.border-left-groove-purple {
+    border-left: 1px groove #b200ff;
+}
+
+/* right purples */
+
+.border-right-dashed-purple {
+    border-right: 1px dashed #b200ff;
+}
+
+.border-right-dotted-purple {
+    border-right: 1px dotted #b200ff;
+}
+
+.border-right-solid-purple {
+    border-right: 1px solid #b200ff;
+}
+
+.border-right-double-purple {
+    border-right: 1px double #b200ff;
+}
+
+.border-right-groove-purple {
+    border-right: 1px groove #b200ff;
+}
+
+/* top purples */
+
+.border-top-dashed-purple {
+    border-top: 1px dashed #b200ff;
+}
+
+.border-top-dotted-purple {
+    border-top: 1px dotted #b200ff;
+}
+
+.border-top-solid-purple {
+    border-top: 1px solid #b200ff;
+}
+
+.border-top-double-purple {
+    border-top: 1px double #b200ff;
+}
+
+.border-top-groove-purple {
+    border-top: 1px groove #b200ff;
+}
+
+/* bottom purples */
+
+.border-bottom-dashed-purple {
+    border-bottom: 1px dashed #b200ff;
+}
+
+.border-bottom-dotted-purple {
+    border-bottom: 1px dotted #b200ff;
+}
+
+.border-bottom-solid-purple {
+    border-bottom: 1px solid #b200ff;
+}
+
+.border-bottom-double-purple {
+    border-bottom: 1px double #b200ff;
+}
+
+.border-bottom-groove-purple {
+    border-bottom: 1px groove #b200ff;
+}
+
+/* This part contains the borders with 2px */
+
+/* All blacks */
+
+.border2-all-dashed-black {
+    border: 2px dashed #000000;
+}
+
+.border2-all-dotted-black {
+    border: 2px dotted #000000;
+}
+
+.border2-all-solid-black {
+    border: 2px solid #000000;
+}
+
+.border2-all-double-black {
+    border: 2px double #000000;
+}
+
+.border2-all-groove-black {
+    border: 2px groove #000000;
+}
+
+/* left blacks */
+
+.border2-left-dashed-black {
+    border-left: 2px dashed #000000;
+}
+
+.border2-left-dotted-black {
+    border-left: 2px dotted #000000;
+}
+
+.border2-left-solid-black {
+    border-left: 2px solid #000000;
+}
+
+.border2-left-double-black {
+    border-left: 2px double #000000;
+}
+
+.border2-left-groove-black {
+    border-left: 2px groove #000000;
+}
+
+/* right blacks */
+
+.border2-right-dashed-black {
+    border-right: 2px dashed #000000;
+}
+
+.border2-right-dotted-black {
+    border-right: 2px dotted #000000;
+}
+
+.border2-right-solid-black {
+    border-right: 2px solid #000000;
+}
+
+.border2-right-double-black {
+    border-right: 2px double #000000;
+}
+
+.border2-right-groove-black {
+    border-right: 2px groove #000000;
+}
+
+/* top blacks */
+
+.border2-top-dashed-black {
+    border-top: 2px dashed #000000;
+}
+
+.border2-top-dotted-black {
+    border-top: 2px dotted #000000;
+}
+
+.border2-top-solid-black {
+    border-top: 2px solid #000000;
+}
+
+.border2-top-double-black {
+    border-top: 2px double #000000;
+}
+
+.border2-top-groove-black {
+    border-top: 2px groove #000000;
+}
+
+/* bottom blacks */
+
+.border2-bottom-dashed-black {
+    border-bottom: 2px dashed #000000;
+}
+
+.border2-bottom-dotted-black {
+    border-bottom: 2px dotted #000000;
+}
+
+.border2-bottom-solid-black {
+    border-bottom: 2px solid #000000;
+}
+
+.border2-bottom-double-black {
+    border-bottom: 2px double #000000;
+}
+
+.border2-bottom-groove-black {
+    border-bottom: 2px groove #000000;
+}
+
+/* All grays */
+
+.border2-all-dashed-gray {
+    border: 2px dashed #808080;
+}
+
+.border2-all-dotted-gray {
+    border: 2px dotted #808080;
+}
+
+.border2-all-solid-gray {
+    border: 2px solid #808080;
+}
+
+.border2-all-double-gray {
+    border: 2px double #808080;
+}
+
+.border2-all-groove-gray {
+    border: 2px groove #808080;
+}
+
+/* left grays */
+
+.border2-left-dashed-gray {
+    border-left: 2px dashed #808080;
+}
+
+.border2-left-dotted-gray {
+    border-left: 2px dotted #808080;
+}
+
+.border2-left-solid-gray {
+    border-left: 2px solid #808080;
+}
+
+.border2-left-double-gray {
+    border-left: 2px double #808080;
+}
+
+.border2-left-groove-gray {
+    border-left: 2px groove #808080;
+}
+
+/* right grays */
+
+.border2-right-dashed-gray {
+    border-right: 2px dashed #808080;
+}
+
+.border2-right-dotted-gray {
+    border-right: 2px dotted #808080;
+}
+
+.border2-right-solid-gray {
+    border-right: 2px solid #808080;
+}
+
+.border2-right-double-gray {
+    border-right: 2px double #808080;
+}
+
+.border2-right-groove-gray {
+    border-right: 2px groove #808080;
+}
+
+/* top grays */
+
+.border2-top-dashed-gray {
+    border-top: 2px dashed #808080;
+}
+
+.border2-top-dotted-gray {
+    border-top: 2px dotted #808080;
+}
+
+.border2-top-solid-gray {
+    border-top: 2px solid #808080;
+}
+
+.border2-top-double-gray {
+    border-top: 2px double #808080;
+}
+
+.border2-top-groove-gray {
+    border-top: 2px groove #808080;
+}
+
+/* bottom grays */
+
+.border2-bottom-dashed-gray {
+    border-bottom: 2px dashed #808080;
+}
+
+.border2-bottom-dotted-gray {
+    border-bottom: 2px dotted #808080;
+}
+
+.border2-bottom-solid-gray {
+    border-bottom: 2px solid #808080;
+}
+
+.border2-bottom-double-gray {
+    border-bottom: 2px double #808080;
+}
+
+.border2-bottom-groove-gray {
+    border-bottom: 2px groove #808080;
+}
+
+/* All whites */
+
+.border2-all-dashed-white {
+    border: 2px dashed #ffffff;
+}
+
+.border2-all-dotted-white {
+    border: 2px dotted #ffffff;
+}
+
+.border2-all-solid-white {
+    border: 2px solid #ffffff;
+}
+
+.border2-all-double-white {
+    border: 2px double #ffffff;
+}
+
+.border2-all-groove-white {
+    border: 2px groove #ffffff;
+}
+
+/* left whites */
+
+.border2-left-dashed-white {
+    border-left: 2px dashed #ffffff;
+}
+
+.border2-left-dotted-white {
+    border-left: 2px dotted #ffffff;
+}
+
+.border2-left-solid-white {
+    border-left: 2px solid #ffffff;
+}
+
+.border2-left-double-white {
+    border-left: 2px double #ffffff;
+}
+
+.border2-left-groove-white {
+    border-left: 2px groove #ffffff;
+}
+
+/* right whites */
+
+.border2-right-dashed-white {
+    border-right: 2px dashed #ffffff;
+}
+
+.border2-right-dotted-white {
+    border-right: 2px dotted #ffffff;
+}
+
+.border2-right-solid-white {
+    border-right: 2px solid #ffffff;
+}
+
+.border2-right-double-white {
+    border-right: 2px double #ffffff;
+}
+
+.border2-right-groove-white {
+    border-right: 2px groove #ffffff;
+}
+
+/* top whites */
+
+.border2-top-dashed-white {
+    border-top: 2px dashed #ffffff;
+}
+
+.border2-top-dotted-white {
+    border-top: 2px dotted #ffffff;
+}
+
+.border2-top-solid-white {
+    border-top: 2px solid #ffffff;
+}
+
+.border2-top-double-white {
+    border-top: 2px double #ffffff;
+}
+
+.border2-top-groove-white {
+    border-top: 2px groove #ffffff;
+}
+
+/* bottom whites */
+
+.border2-bottom-dashed-white {
+    border-bottom: 2px dashed #ffffff;
+}
+
+.border2-bottom-dotted-white {
+    border-bottom: 2px dotted #ffffff;
+}
+
+.border2-bottom-solid-white {
+    border-bottom: 2px solid #ffffff;
+}
+
+.border2-bottom-double-white {
+    border-bottom: 2px double #ffffff;
+}
+
+.border2-bottom-groove-white {
+    border-bottom: 2px groove #ffffff;
+}
+
+/* All reds */
+
+.border2-all-dashed-red {
+    border: 2px dashed #ff0000;
+}
+
+.border2-all-dotted-red {
+    border: 2px dotted #ff0000;
+}
+
+.border2-all-solid-red {
+    border: 2px solid #ff0000;
+}
+
+.border2-all-double-red {
+    border: 2px double #ff0000;
+}
+
+.border2-all-groove-red {
+    border: 2px groove #ff0000;
+}
+
+/* left reds */
+
+.border2-left-dashed-red {
+    border-left: 2px dashed #ff0000;
+}
+
+.border2-left-dotted-red {
+    border-left: 2px dotted #ff0000;
+}
+
+.border2-left-solid-red {
+    border-left: 2px solid #ff0000;
+}
+
+.border2-left-double-red {
+    border-left: 2px double #ff0000;
+}
+
+.border2-left-groove-red {
+    border-left: 2px groove #ff0000;
+}
+
+/* right reds */
+
+.border2-right-dashed-red {
+    border-right: 2px dashed #ff0000;
+}
+
+.border2-right-dotted-red {
+    border-right: 2px dotted #ff0000;
+}
+
+.border2-right-solid-red {
+    border-right: 2px solid #ff0000;
+}
+
+.border2-right-double-red {
+    border-right: 2px double #ff0000;
+}
+
+.border2-right-groove-red {
+    border-right: 2px groove #ff0000;
+}
+
+/* top reds */
+
+.border2-top-dashed-red {
+    border-top: 2px dashed #ff0000;
+}
+
+.border2-top-dotted-red {
+    border-top: 2px dotted #ff0000;
+}
+
+.border2-top-solid-red {
+    border-top: 2px solid #ff0000;
+}
+
+.border2-top-double-red {
+    border-top: 2px double #ff0000;
+}
+
+.border2-top-groove-red {
+    border-top: 2px groove #ff0000;
+}
+
+/* bottom reds */
+
+.border2-bottom-dashed-red {
+    border-bottom: 2px dashed #ff0000;
+}
+
+.border2-bottom-dotted-red {
+    border-bottom: 2px dotted #ff0000;
+}
+
+.border2-bottom-solid-red {
+    border-bottom: 2px solid #ff0000;
+}
+
+.border2-bottom-double-red {
+    border-bottom: 2px double #ff0000;
+}
+
+.border2-bottom-groove-red {
+    border-bottom: 2px groove #ff0000;
+}
+
+/* All oranges */
+
+.border2-all-dashed-orange {
+    border: 2px dashed #ff6a00;
+}
+
+.border2-all-dotted-orange {
+    border: 2px dotted #ff6a00;
+}
+
+.border2-all-solid-orange {
+    border: 2px solid #ff6a00;
+}
+
+.border2-all-double-orange {
+    border: 2px double #ff6a00;
+}
+
+.border2-all-groove-orange {
+    border: 2px groove #ff6a00;
+}
+
+/* left oranges */
+
+.border2-left-dashed-orange {
+    border-left: 2px dashed #ff6a00;
+}
+
+.border2-left-dotted-orange {
+    border-left: 2px dotted #ff6a00;
+}
+
+.border2-left-solid-orange {
+    border-left: 2px solid #ff6a00;
+}
+
+.border2-left-double-orange {
+    border-left: 2px double #ff6a00;
+}
+
+.border2-left-groove-orange {
+    border-left: 2px groove #ff6a00;
+}
+
+/* right oranges */
+
+.border2-right-dashed-orange {
+    border-right: 2px dashed #ff6a00;
+}
+
+.border2-right-dotted-orange {
+    border-right: 2px dotted #ff6a00;
+}
+
+.border2-right-solid-orange {
+    border-right: 2px solid #ff6a00;
+}
+
+.border2-right-double-orange {
+    border-right: 2px double #ff6a00;
+}
+
+.border2-right-groove-orange {
+    border-right: 2px groove #ff6a00;
+}
+
+/* top oranges */
+
+.border2-top-dashed-orange {
+    border-top: 2px dashed #ff6a00;
+}
+
+.border2-top-dotted-orange {
+    border-top: 2px dotted #ff6a00;
+}
+
+.border2-top-solid-orange {
+    border-top: 2px solid #ff6a00;
+}
+
+.border2-top-double-orange {
+    border-top: 2px double #ff6a00;
+}
+
+.border2-top-groove-orange {
+    border-top: 2px groove #ff6a00;
+}
+
+/* bottom oranges */
+
+.border2-bottom-dashed-orange {
+    border-bottom: 2px dashed #ff6a00;
+}
+
+.border2-bottom-dotted-orange {
+    border-bottom: 2px dotted #ff6a00;
+}
+
+.border2-bottom-solid-orange {
+    border-bottom: 2px solid #ff6a00;
+}
+
+.border2-bottom-double-orange {
+    border-bottom: 2px double #ff6a00;
+}
+
+.border2-bottom-groove-orange {
+    border-bottom: 2px groove #ff6a00;
+}
+
+/* All greens */
+
+.border2-all-dashed-green {
+    border: 2px dashed #4cff00;
+}
+
+.border2-all-dotted-green {
+    border: 2px dotted #4cff00;
+}
+
+.border2-all-solid-green {
+    border: 2px solid #4cff00;
+}
+
+.border2-all-double-green {
+    border: 2px double #4cff00;
+}
+
+.border2-all-groove-green {
+    border: 2px groove #4cff00;
+}
+
+/* left greens */
+
+.border2-left-dashed-green {
+    border-left: 2px dashed #4cff00;
+}
+
+.border2-left-dotted-green {
+    border-left: 2px dotted #4cff00;
+}
+
+.border2-left-solid-green {
+    border-left: 2px solid #4cff00;
+}
+
+.border2-left-double-green {
+    border-left: 2px double #4cff00;
+}
+
+.border2-left-groove-green {
+    border-left: 2px groove #4cff00;
+}
+
+/* right greens */
+
+.border2-right-dashed-green {
+    border-right: 2px dashed #4cff00;
+}
+
+.border2-right-dotted-green {
+    border-right: 2px dotted #4cff00;
+}
+
+.border2-right-solid-green {
+    border-right: 2px solid #4cff00;
+}
+
+.border2-right-double-green {
+    border-right: 2px double #4cff00;
+}
+
+.border2-right-groove-green {
+    border-right: 2px groove #4cff00;
+}
+
+/* top greens */
+
+.border2-top-dashed-green {
+    border-top: 2px dashed #4cff00;
+}
+
+.border2-top-dotted-green {
+    border-top: 2px dotted #4cff00;
+}
+
+.border2-top-solid-green {
+    border-top: 2px solid #4cff00;
+}
+
+.border2-top-double-green {
+    border-top: 2px double #4cff00;
+}
+
+.border2-top-groove-green {
+    border-top: 2px groove #4cff00;
+}
+
+/* bottom greens */
+
+.border2-bottom-dashed-green {
+    border-bottom: 2px dashed #4cff00;
+}
+
+.border2-bottom-dotted-green {
+    border-bottom: 2px dotted #4cff00;
+}
+
+.border2-bottom-solid-green {
+    border-bottom: 2px solid #4cff00;
+}
+
+.border2-bottom-double-green {
+    border-bottom: 2px double #4cff00;
+}
+
+.border2-bottom-groove-green {
+    border-bottom: 2px groove #4cff00;
+}
+
+/* All blues */
+
+.border2-all-dashed-blue {
+    border: 2px dashed #0094ff;
+}
+
+.border2-all-dotted-blue {
+    border: 2px dotted #0094ff;
+}
+
+.border2-all-solid-blue {
+    border: 2px solid #0094ff;
+}
+
+.border2-all-double-blue {
+    border: 2px double #0094ff;
+}
+
+.border2-all-groove-blue {
+    border: 2px groove #0094ff;
+}
+
+/* left blues */
+
+.border2-left-dashed-blue {
+    border-left: 2px dashed #0094ff;
+}
+
+.border2-left-dotted-blue {
+    border-left: 2px dotted #0094ff;
+}
+
+.border2-left-solid-blue {
+    border-left: 2px solid #0094ff;
+}
+
+.border2-left-double-blue {
+    border-left: 2px double #0094ff;
+}
+
+.border2-left-groove-blue {
+    border-left: 2px groove #0094ff;
+}
+
+/* right blues */
+
+.border2-right-dashed-blue {
+    border-right: 2px dashed #0094ff;
+}
+
+.border2-right-dotted-blue {
+    border-right: 2px dotted #0094ff;
+}
+
+.border2-right-solid-blue {
+    border-right: 2px solid #0094ff;
+}
+
+.border2-right-double-blue {
+    border-right: 2px double #0094ff;
+}
+
+.border2-right-groove-blue {
+    border-right: 2px groove #0094ff;
+}
+
+/* top blues */
+
+.border2-top-dashed-blue {
+    border-top: 2px dashed #0094ff;
+}
+
+.border2-top-dotted-blue {
+    border-top: 2px dotted #0094ff;
+}
+
+.border2-top-solid-blue {
+    border-top: 2px solid #0094ff;
+}
+
+.border2-top-double-blue {
+    border-top: 2px double #0094ff;
+}
+
+.border2-top-groove-blue {
+    border-top: 2px groove #0094ff;
+}
+
+/* bottom blues */
+
+.border2-bottom-dashed-blue {
+    border-bottom: 2px dashed #0094ff;
+}
+
+.border2-bottom-dotted-blue {
+    border-bottom: 2px dotted #0094ff;
+}
+
+.border2-bottom-solid-blue {
+    border-bottom: 2px solid #0094ff;
+}
+
+.border2-bottom-double-blue {
+    border-bottom: 2px double #0094ff;
+}
+
+.border2-bottom-groove-blue {
+    border-bottom: 2px groove #0094ff;
+}
+
+/* All purples */
+
+.border2-all-dashed-purple {
+    border: 2px dashed #b200ff;
+}
+
+.border2-all-dotted-purple {
+    border: 2px dotted #b200ff;
+}
+
+.border2-all-solid-purple {
+    border: 2px solid #b200ff;
+}
+
+.border2-all-double-purple {
+    border: 2px double #b200ff;
+}
+
+.border2-all-groove-purple {
+    border: 2px groove #b200ff;
+}
+
+/* left purples */
+
+.border2-left-dashed-purple {
+    border-left: 2px dashed #b200ff;
+}
+
+.border2-left-dotted-purple {
+    border-left: 2px dotted #b200ff;
+}
+
+.border2-left-solid-purple {
+    border-left: 2px solid #b200ff;
+}
+
+.border2-left-double-purple {
+    border-left: 2px double #b200ff;
+}
+
+.border2-left-groove-purple {
+    border-left: 2px groove #b200ff;
+}
+
+/* right purples */
+
+.border2-right-dashed-purple {
+    border-right: 2px dashed #b200ff;
+}
+
+.border2-right-dotted-purple {
+    border-right: 2px dotted #b200ff;
+}
+
+.border2-right-solid-purple {
+    border-right: 2px solid #b200ff;
+}
+
+.border2-right-double-purple {
+    border-right: 2px double #b200ff;
+}
+
+.border2-right-groove-purple {
+    border-right: 2px groove #b200ff;
+}
+
+/* top purples */
+
+.border2-top-dashed-purple {
+    border-top: 2px dashed #b200ff;
+}
+
+.border2-top-dotted-purple {
+    border-top: 2px dotted #b200ff;
+}
+
+.border2-top-solid-purple {
+    border-top: 2px solid #b200ff;
+}
+
+.border2-top-double-purple {
+    border-top: 2px double #b200ff;
+}
+
+.border2-top-groove-purple {
+    border-top: 2px groove #b200ff;
+}
+
+/* bottom purples */
+
+.border2-bottom-dashed-purple {
+    border-bottom: 2px dashed #b200ff;
+}
+
+.border2-bottom-dotted-purple {
+    border-bottom: 2px dotted #b200ff;
+}
+
+.border2-bottom-solid-purple {
+    border-bottom: 2px solid #b200ff;
+}
+
+.border2-bottom-double-purple {
+    border-bottom: 2px double #b200ff;
+}
+
+.border2-bottom-groove-purple {
+    border-bottom: 2px groove #b200ff;
+}
+
+/* This part contains borders with 3px */
+
+/* All blacks */
+
+.border3-all-dashed-black {
+    border: 3px dashed #000000;
+}
+
+.border3-all-dotted-black {
+    border: 3px dotted #000000;
+}
+
+.border3-all-solid-black {
+    border: 3px solid #000000;
+}
+
+.border3-all-double-black {
+    border: 3px double #000000;
+}
+
+.border3-all-groove-black {
+    border: 3px groove #000000;
+}
+
+/* left blacks */
+
+.border3-left-dashed-black {
+    border-left: 3px dashed #000000;
+}
+
+.border3-left-dotted-black {
+    border-left: 3px dotted #000000;
+}
+
+.border3-left-solid-black {
+    border-left: 3px solid #000000;
+}
+
+.border3-left-double-black {
+    border-left: 3px double #000000;
+}
+
+.border3-left-groove-black {
+    border-left: 3px groove #000000;
+}
+
+/* right blacks */
+
+.border3-right-dashed-black {
+    border-right: 3px dashed #000000;
+}
+
+.border3-right-dotted-black {
+    border-right: 3px dotted #000000;
+}
+
+.border3-right-solid-black {
+    border-right: 3px solid #000000;
+}
+
+.border3-right-double-black {
+    border-right: 3px double #000000;
+}
+
+.border3-right-groove-black {
+    border-right: 3px groove #000000;
+}
+
+/* top blacks */
+
+.border3-top-dashed-black {
+    border-top: 3px dashed #000000;
+}
+
+.border3-top-dotted-black {
+    border-top: 3px dotted #000000;
+}
+
+.border3-top-solid-black {
+    border-top: 3px solid #000000;
+}
+
+.border3-top-double-black {
+    border-top: 3px double #000000;
+}
+
+.border3-top-groove-black {
+    border-top: 3px groove #000000;
+}
+
+/* bottom blacks */
+
+.border3-bottom-dashed-black {
+    border-bottom: 3px dashed #000000;
+}
+
+.border3-bottom-dotted-black {
+    border-bottom: 3px dotted #000000;
+}
+
+.border3-bottom-solid-black {
+    border-bottom: 3px solid #000000;
+}
+
+.border3-bottom-double-black {
+    border-bottom: 3px double #000000;
+}
+
+.border3-bottom-groove-black {
+    border-bottom: 3px groove #000000;
+}
+
+/* All grays */
+
+.border3-all-dashed-gray {
+    border: 3px dashed #808080;
+}
+
+.border3-all-dotted-gray {
+    border: 3px dotted #808080;
+}
+
+.border3-all-solid-gray {
+    border: 3px solid #808080;
+}
+
+.border3-all-double-gray {
+    border: 3px double #808080;
+}
+
+.border3-all-groove-gray {
+    border: 3px groove #808080;
+}
+
+/* left grays */
+
+.border3-left-dashed-gray {
+    border-left: 3px dashed #808080;
+}
+
+.border3-left-dotted-gray {
+    border-left: 3px dotted #808080;
+}
+
+.border3-left-solid-gray {
+    border-left: 3px solid #808080;
+}
+
+.border3-left-double-gray {
+    border-left: 3px double #808080;
+}
+
+.border3-left-groove-gray {
+    border-left: 3px groove #808080;
+}
+
+/* right grays */
+
+.border3-right-dashed-gray {
+    border-right: 3px dashed #808080;
+}
+
+.border3-right-dotted-gray {
+    border-right: 3px dotted #808080;
+}
+
+.border3-right-solid-gray {
+    border-right: 3px solid #808080;
+}
+
+.border3-right-double-gray {
+    border-right: 3px double #808080;
+}
+
+.border3-right-groove-gray {
+    border-right: 3px groove #808080;
+}
+
+/* top grays */
+
+.border3-top-dashed-gray {
+    border-top: 3px dashed #808080;
+}
+
+.border3-top-dotted-gray {
+    border-top: 3px dotted #808080;
+}
+
+.border3-top-solid-gray {
+    border-top: 3px solid #808080;
+}
+
+.border3-top-double-gray {
+    border-top: 3px double #808080;
+}
+
+.border3-top-groove-gray {
+    border-top: 3px groove #808080;
+}
+
+/* bottom grays */
+
+.border3-bottom-dashed-gray {
+    border-bottom: 3px dashed #808080;
+}
+
+.border3-bottom-dotted-gray {
+    border-bottom: 3px dotted #808080;
+}
+
+.border3-bottom-solid-gray {
+    border-bottom: 3px solid #808080;
+}
+
+.border3-bottom-double-gray {
+    border-bottom: 3px double #808080;
+}
+
+.border3-bottom-groove-gray {
+    border-bottom: 3px groove #808080;
+}
+
+/* All whites */
+
+.border3-all-dashed-white {
+    border: 3px dashed #ffffff;
+}
+
+.border3-all-dotted-white {
+    border: 3px dotted #ffffff;
+}
+
+.border3-all-solid-white {
+    border: 3px solid #ffffff;
+}
+
+.border3-all-double-white {
+    border: 3px double #ffffff;
+}
+
+.border3-all-groove-white {
+    border: 3px groove #ffffff;
+}
+
+/* left whites */
+
+.border3-left-dashed-white {
+    border-left: 3px dashed #ffffff;
+}
+
+.border3-left-dotted-white {
+    border-left: 3px dotted #ffffff;
+}
+
+.border3-left-solid-white {
+    border-left: 3px solid #ffffff;
+}
+
+.border3-left-double-white {
+    border-left: 3px double #ffffff;
+}
+
+.border3-left-groove-white {
+    border-left: 3px groove #ffffff;
+}
+
+/* right whites */
+
+.border3-right-dashed-white {
+    border-right: 3px dashed #ffffff;
+}
+
+.border3-right-dotted-white {
+    border-right: 3px dotted #ffffff;
+}
+    
+.border3-right-solid-white {
+    border-right: 3px solid #ffffff;
+}
+
+.border3-right-double-white {
+    border-right: 3px double #ffffff;
+}
+
+.border3-right-groove-white {
+    border-right: 3px groove #ffffff;
+}
+
+/* top whites */
+
+.border3-top-dashed-white {
+    border-top: 3px dashed #ffffff;
+}
+
+.border3-top-dotted-white {
+    border-top: 3px dotted #ffffff;
+}
+
+.border3-top-solid-white {
+    border-top: 3px solid #ffffff;
+}
+
+.border3-top-double-white {
+    border-top: 3px double #ffffff;
+}
+
+.border3-top-groove-white {
+    border-top: 3px groove #ffffff;
+}
+
+/* bottom whites */
+
+.border3-bottom-dashed-white {
+    border-bottom: 3px dashed #ffffff;
+}
+
+.border3-bottom-dotted-white {
+    border-bottom: 3px dotted #ffffff;
+}
+
+.border3-bottom-solid-white {
+    border-bottom: 3px solid #ffffff;
+}
+
+.border3-bottom-double-white {
+    border-bottom: 3px double #ffffff;
+}
+
+.border3-bottom-groove-white {
+    border-bottom: 3px groove #ffffff;
+}
+
+/* All reds */
+
+.border3-all-dashed-red {
+    border: 3px dashed #ff0000;
+}
+
+.border3-all-dotted-red {
+    border: 3px dotted #ff0000;
+}
+
+.border3-all-solid-red {
+    border: 3px solid #ff0000;
+}
+
+.border3-all-double-red {
+    border: 3px double #ff0000;
+}
+
+.border3-all-groove-red {
+    border: 3px groove #ff0000;
+}
+
+/* left reds */
+
+.border3-left-dashed-red {
+    border-left: 3px dashed #ff0000;
+}
+
+.border3-left-dotted-red {
+    border-left: 3px dotted #ff0000;
+}
+
+.border3-left-solid-red {
+    border-left: 3px solid #ff0000;
+}
+
+.border3-left-double-red {
+    border-left: 3px double #ff0000;
+}
+
+.border3-left-groove-red {
+    border-left: 3px groove #ff0000;
+}
+
+/* right reds */
+
+.border3-right-dashed-red {
+    border-right: 3px dashed #ff0000;
+}
+
+.border3-right-dotted-red {
+    border-right: 3px dotted #ff0000;
+}
+
+.border3-right-solid-red {
+    border-right: 3px solid #ff0000;
+}
+
+.border3-right-double-red {
+    border-right: 3px double #ff0000;
+}
+
+.border3-right-groove-red {
+    border-right: 3px groove #ff0000;
+}
+
+/* top reds */
+
+.border3-top-dashed-red {
+    border-top: 3px dashed #ff0000;
+}
+
+.border3-top-dotted-red {
+    border-top: 3px dotted #ff0000;
+}
+
+.border3-top-solid-red {
+    border-top: 3px solid #ff0000;
+}
+
+.border3-top-double-red {
+    border-top: 3px double #ff0000;
+}
+
+.border3-top-groove-red {
+    border-top: 3px groove #ff0000;
+}
+
+/* bottom reds */
+
+.border3-bottom-dashed-red {
+    border-bottom: 3px dashed #ff0000;
+}
+
+.border3-bottom-dotted-red {
+    border-bottom: 3px dotted #ff0000;
+}
+
+.border3-bottom-solid-red {
+    border-bottom: 3px solid #ff0000;
+}
+
+.border3-bottom-double-red {
+    border-bottom: 3px double #ff0000;
+}
+
+.border3-bottom-groove-red {
+    border-bottom: 3px groove #ff0000;
+}
+
+/* All oranges */
+
+.border3-all-dashed-orange {
+    border: 3px dashed #ff6a00;
+}
+
+.border3-all-dotted-orange {
+    border: 3px dotted #ff6a00;
+}
+
+.border3-all-solid-orange {
+    border: 3px solid #ff6a00;
+}
+
+.border3-all-double-orange {
+    border: 3px double #ff6a00;
+}
+
+.border3-all-groove-orange {
+    border: 3px groove #ff6a00;
+}
+
+/* left oranges */
+
+.border3-left-dashed-orange {
+    border-left: 3px dashed #ff6a00;
+}
+
+.border3-left-dotted-orange {
+    border-left: 3px dotted #ff6a00;
+}
+
+.border3-left-solid-orange {
+    border-left: 3px solid #ff6a00;
+}
+
+.border3-left-double-orange {
+    border-left: 3px double #ff6a00;
+}
+
+.border3-left-groove-orange {
+    border-left: 3px groove #ff6a00;
+}
+
+/* right oranges */
+
+.border3-right-dashed-orange {
+    border-right: 3px dashed #ff6a00;
+}
+
+.border3-right-dotted-orange {
+    border-right: 3px dotted #ff6a00;
+}
+
+.border3-right-solid-orange {
+    border-right: 3px solid #ff6a00;
+}
+
+.border3-right-double-orange {
+    border-right: 3px double #ff6a00;
+}
+
+.border3-right-groove-orange {
+    border-right: 3px groove #ff6a00;
+}
+
+/* top oranges */
+
+.border3-top-dashed-orange {
+    border-top: 3px dashed #ff6a00;
+}
+
+.border3-top-dotted-orange {
+    border-top: 3px dotted #ff6a00;
+}
+
+.border3-top-solid-orange {
+    border-top: 3px solid #ff6a00;
+}
+
+.border3-top-double-orange {
+    border-top: 3px double #ff6a00;
+}
+
+.border3-top-groove-orange {
+    border-top: 3px groove #ff6a00;
+}
+
+/* bottom oranges */
+
+.border3-bottom-dashed-orange {
+    border-bottom: 3px dashed #ff6a00;
+}
+
+.border3-bottom-dotted-orange {
+    border-bottom: 3px dotted #ff6a00;
+}
+
+.border3-bottom-solid-orange {
+    border-bottom: 3px solid #ff6a00;
+}
+
+.border3-bottom-double-orange {
+    border-bottom: 3px double #ff6a00;
+}
+
+.border3-bottom-groove-orange {
+    border-bottom: 3px groove #ff6a00;
+}
+
+/* All greens */
+
+.border3-all-dashed-green {
+    border: 3px dashed #4cff00;
+}
+
+.border3-all-dotted-green {
+    border: 3px dotted #4cff00;
+}
+
+.border3-all-solid-green {
+    border: 3px solid #4cff00;
+}
+
+.border3-all-double-green {
+    border: 3px double #4cff00;
+}
+
+.border3-all-groove-green {
+    border: 3px groove #4cff00;
+}
+
+/* left greens */
+
+.border3-left-dashed-green {
+    border-left: 3px dashed #4cff00;
+}
+
+.border3-left-dotted-green {
+    border-left: 3px dotted #4cff00;
+}
+
+.border3-left-solid-green {
+    border-left: 3px solid #4cff00;
+}
+
+.border3-left-double-green {
+    border-left: 3px double #4cff00;
+}
+
+.border3-left-groove-green {
+    border-left: 3px groove #4cff00;
+}
+
+/* right greens */
+
+.border3-right-dashed-green {
+    border-right: 3px dashed #4cff00;
+}
+
+.border3-right-dotted-green {
+    border-right: 3px dotted #4cff00;
+}
+
+.border3-right-solid-green {
+    border-right: 3px solid #4cff00;
+}
+
+.border3-right-double-green {
+    border-right: 3px double #4cff00;
+}
+
+.border3-right-groove-green {
+    border-right: 3px groove #4cff00;
+}
+
+/* top greens */
+
+.border3-top-dashed-green {
+    border-top: 3px dashed #4cff00;
+}
+
+.border3-top-dotted-green {
+    border-top: 3px dotted #4cff00;
+}
+
+.border3-top-solid-green {
+    border-top: 3px solid #4cff00;
+}
+
+.border3-top-double-green {
+    border-top: 3px double #4cff00;
+}
+
+.border3-top-groove-green {
+    border-top: 3px groove #4cff00;
+}
+
+/* bottom greens */
+
+.border3-bottom-dashed-green {
+    border-bottom: 3px dashed #4cff00;
+}
+
+.border3-bottom-dotted-green {
+    border-bottom: 3px dotted #4cff00;
+}
+
+.border3-bottom-solid-green {
+    border-bottom: 3px solid #4cff00;
+}
+
+.border3-bottom-double-green {
+    border-bottom: 3px double #4cff00;
+}
+
+.border3-bottom-groove-green {
+    border-bottom: 3px groove #4cff00;
+}
+
+/* All blues */
+
+.border3-all-dashed-blue {
+    border: 3px dashed #0094ff;
+}
+
+.border3-all-dotted-blue {
+    border: 3px dotted #0094ff;
+}
+
+.border3-all-solid-blue {
+    border: 3px solid #0094ff;
+}
+
+.border3-all-double-blue {
+    border: 3px double #0094ff;
+}
+
+.border3-all-groove-blue {
+    border: 3px groove #0094ff;
+}
+
+/* left blues */
+
+.border3-left-dashed-blue {
+    border-left: 3px dashed #0094ff;
+}
+
+.border3-left-dotted-blue {
+    border-left: 3px dotted #0094ff;
+}
+
+.border3-left-solid-blue {
+    border-left: 3px solid #0094ff;
+}
+
+.border3-left-double-blue {
+    border-left: 3px double #0094ff;
+}
+
+.border3-left-groove-blue {
+    border-left: 3px groove #0094ff;
+}
+
+/* right blues */
+
+.border3-right-dashed-blue {
+    border-right: 3px dashed #0094ff;
+}
+
+.border3-right-dotted-blue {
+    border-right: 3px dotted #0094ff;
+}
+
+.border3-right-solid-blue {
+    border-right: 3px solid #0094ff;
+}
+
+.border3-right-double-blue {
+    border-right: 3px double #0094ff;
+}
+
+.border3-right-groove-blue {
+    border-right: 3px groove #0094ff;
+}
+
+/* top blues */
+
+.border3-top-dashed-blue {
+    border-top: 3px dashed #0094ff;
+}
+
+.border3-top-dotted-blue {
+    border-top: 3px dotted #0094ff;
+}
+
+.border3-top-solid-blue {
+    border-top: 3px solid #0094ff;
+}
+
+.border3-top-double-blue {
+    border-top: 3px double #0094ff;
+}
+
+.border3-top-groove-blue {
+    border-top: 3px groove #0094ff;
+}
+
+/* bottom blues */
+
+.border3-bottom-dashed-blue {
+    border-bottom: 3px dashed #0094ff;
+}
+
+.border3-bottom-dotted-blue {
+    border-bottom: 3px dotted #0094ff;
+}
+
+.border3-bottom-solid-blue {
+    border-bottom: 3px solid #0094ff;
+}
+
+.border3-bottom-double-blue {
+    border-bottom: 3px double #0094ff;
+}
+
+.border3-bottom-groove-blue {
+    border-bottom: 3px groove #0094ff;
+}
+
+/* All purples */
+
+.border3-all-dashed-purple {
+    border: 3px dashed #b200ff;
+}
+
+.border3-all-dotted-purple {
+    border: 3px dotted #b200ff;
+}
+
+.border3-all-solid-purple {
+    border: 3px solid #b200ff;
+}
+
+.border3-all-double-purple {
+    border: 3px double #b200ff;
+}
+
+.border3-all-groove-purple {
+    border: 3px groove #b200ff;
+}
+
+/* left purples */
+
+.border3-left-dashed-purple {
+    border-left: 3px dashed #b200ff;
+}
+
+.border3-left-dotted-purple {
+    border-left: 3px dotted #b200ff;
+}
+
+.border3-left-solid-purple {
+    border-left: 3px solid #b200ff;
+}
+
+.border3-left-double-purple {
+    border-left: 3px double #b200ff;
+}
+
+.border3-left-groove-purple {
+    border-left: 3px groove #b200ff;
+}
+
+/* right purples */
+
+.border3-right-dashed-purple {
+    border-right: 3px dashed #b200ff;
+}
+
+.border3-right-dotted-purple {
+    border-right: 3px dotted #b200ff;
+}
+
+.border3-right-solid-purple {
+    border-right: 3px solid #b200ff;
+}
+
+.border3-right-double-purple {
+    border-right: 3px double #b200ff;
+}
+
+.border3-right-groove-purple {
+    border-right: 3px groove #b200ff;
+}
+
+/* top purples */
+
+.border3-top-dashed-purple {
+    border-top: 3px dashed #b200ff;
+}
+
+.border3-top-dotted-purple {
+    border-top: 3px dotted #b200ff;
+}
+
+.border3-top-solid-purple {
+    border-top: 3px solid #b200ff;
+}
+
+.border3-top-double-purple {
+    border-top: 3px double #b200ff;
+}
+
+.border3-top-groove-purple {
+    border-top: 3px groove #b200ff;
+}
+
+/* bottom purples */
+
+.border3-bottom-dashed-purple {
+    border-bottom: 3px dashed #b200ff;
+}
+
+.border3-bottom-dotted-purple {
+    border-bottom: 3px dotted #b200ff;
+}
+
+.border3-bottom-solid-purple {
+    border-bottom: 3px solid #b200ff;
+}
+
+.border3-bottom-double-purple {
+    border-bottom: 3px double #b200ff;
+}
+
+.border3-bottom-groove-purple {
+    border-bottom: 3px groove #b200ff;
+}
+
+/* PADDINGS */
+
+/* This part contains all paddings */
+
+/* all paddings */
+
+.padding-all-1 {
+    padding: var(--xsmall);
+}
+
+.padding-all-2 {
+    padding: var(--small);
+}
+
+.padding-all-3 {
+    padding: var(--medium);
+}
+
+.padding-all-4 {
+    padding: var(--large);
+}
+
+.padding-all-5 {
+    padding: var(--xlarge);
+}
+
+/* left paddings */
+
+.padding-left-1 {
+    padding-left: var(--xsmall);
+}
+
+.padding-left-2 {
+    padding-left: var(--small);
+}
+
+.padding-left-3 {
+    padding-left: var(--medium);
+}
+
+.padding-left-4 {
+    padding-left: var(--large);
+}
+
+.padding-left-5 {
+    padding-left: var(--xlarge);
+}
+
+/* right paddings */
+
+.padding-right-1 {
+    padding-right: var(--xsmall);
+}
+
+.padding-right-2 {
+    padding-right: var(--small);
+}
+
+.padding-right-3 {
+    padding-right: var(--medium);
+}
+
+.padding-right-4 {
+    padding-right: var(--large);
+}
+
+.padding-right-5 {
+    padding-right: var(--xlarge);
+}
+
+/* top paddings */
+
+.padding-top-1 {
+    padding-top: var(--xsmall);
+}
+
+.padding-top-2 {
+    padding-top: var(--small);
+}
+
+.padding-top-3 {
+    padding-top: var(--medium);
+}
+
+.padding-top-4 {
+    padding-top: var(--large);
+}
+
+.padding-top-5 {
+    padding-top: var(--xlarge);
+}
+
+/* bottom paddings */
+
+.padding-bottom-1 {
+    padding-bottom: var(--xsmall);
+}
+
+.padding-bottom-2 {
+    padding-bottom: var(--small);
+}
+
+.padding-bottom-3 {
+    padding-bottom: var(--medium);
+}
+
+.padding-bottom-4 {
+    padding-bottom: var(--large);
+}
+
+.padding-bottom-5 {
+    padding-bottom: var(--xlarge);
+}
+
+/* this part contains responsive elements and tools for padding. */
+
+.s-padding-all-1 {
+}
+
+.s-padding-all-2 {
+}
+
+.s-padding-all-3 {
+}
+
+.s-padding-all-4 {
+}
+
+.s-padding-all-5 {
+}
+
+.s-padding-top-1 {
+}
+
+.s-padding-top-2 {
+}
+
+.s-padding-top-3 {
+}
+
+.s-padding-top-4 {
+}
+
+.s-padding-top-5 {
+}
+
+.s-padding-bottom-1 {
+}
+
+.s-padding-bottom-2 {
+}
+
+.s-padding-bottom-3 {
+}
+
+.s-padding-bottom-4 {
+}
+
+.s-padding-bottom-5 {
+}
+
+.s-padding-right-1 {
+}
+
+.s-padding-right-2 {
+}
+
+.s-padding-right-3 {
+}
+
+.s-padding-right-4 {
+}
+
+.s-padding-right-5 {
+}
+
+.s-padding-left-1 {
+}
+
+.s-padding-left-2 {
+}
+
+.s-padding-left-3 {
+}
+
+.s-padding-left-4 {
+}
+
+.s-padding-left-5 {
+}
+
+.m-padding-all-1 {
+}
+
+.m-padding-all-2 {
+}
+
+.m-padding-all-3 {
+}
+
+.m-padding-all-4 {
+}
+
+.m-padding-all-5 {
+}
+
+.m-padding-top-1 {
+}
+
+.m-padding-top-2 {
+}
+
+.m-padding-top-3 {
+}
+
+.m-padding-top-4 {
+}
+
+.m-padding-top-5 {
+}
+
+.m-padding-bottom-1 {
+}
+
+.m-padding-bottom-2 {
+}
+
+.m-padding-bottom-3 {
+}
+
+.m-padding-bottom-4 {
+}
+
+.m-padding-bottom-5 {
+}
+
+.m-padding-right-1 {
+}
+
+.m-padding-right-2 {
+}
+
+.m-padding-right-3 {
+}
+
+.m-padding-right-4 {
+}
+
+.m-padding-right-5 {
+}
+
+.m-padding-left-1 {
+}
+
+.m-padding-left-2 {
+}
+
+.m-padding-left-3 {
+}
+
+.m-padding-left-4 {
+}
+
+.m-padding-left-5 {
+}
+
+@media only screen and (max-width: 768px) {
+    .m-padding-all-1 {
+        padding: var(--xsmall);
+    }
+
+    .m-padding-all-2 {
+        padding: var(--small);
+    }
+
+    .m-padding-all-3 {
+        padding: var(--medium);
+    }
+
+    .m-padding-all-4 {
+        padding: var(--large);
+    }
+
+    .m-padding-all-5 {
+        padding: var(--xlarge);
+    }
+
+    .m-padding-top-1 {
+        padding-bottom: var(--xsmall);
+    }
+
+    .m-padding-top-2 {
+        padding-bottom: var(--small);
+    }
+
+    .m-padding-top-3 {
+        padding-bottom: var(--medium);
+    }
+
+    .m-padding-top-4 {
+        padding-bottom: var(--large);
+    }
+
+    .m-padding-top-5 {
+        padding-top: var(--xlarge);
+    }
+
+    .m-padding-bottom-1 {
+        padding-bottom: var(--xsmall);
+    }
+
+    .m-padding-bottom-2 {
+        padding-bottom: var(--small);
+    }
+
+    .m-padding-bottom-3 {
+        padding-bottom: var(--medium);
+    }
+
+    .m-padding-bottom-4 {
+        padding-bottom: var(--large);
+    }
+
+    .m-padding-bottom-5 {
+        padding-bottom: var(--xlarge);
+    }
+
+    .m-padding-right-1 {
+        padding-right: var(--xsmall);
+    }
+
+    .m-padding-right-2 {
+        padding-right: var(--small);
+    }
+
+    .m-padding-right-3 {
+        padding-right: var(--medium);
+    }
+
+    .m-padding-right-4 {
+        padding-right: var(--large);
+    }
+
+    .m-padding-right-5 {
+        padding-right: var(--xlarge);
+    }
+
+    .m-padding-left-1 {
+        padding-left: var(--xsmall);
+    }
+
+    .m-padding-left-2 {
+        padding-left: var(--small);
+    }
+
+    .m-padding-left-3 {
+        padding-left: var(--medium);
+    }
+
+    .m-padding-left-4 {
+        padding-left: var(--large);
+    }
+
+    .m-padding-left-5 {
+        padding-left: var(--xlarge);
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .s-padding-all-1 {
+        padding: var(--xsmall);
+    }
+
+    .s-padding-all-2 {
+        padding: var(--small);
+    }
+
+    .s-padding-all-3 {
+        padding: var(--medium);
+    }
+
+    .s-padding-all-4 {
+        padding: var(--large);
+    }
+
+    .s-padding-all-5 {
+        padding: var(--xlarge);
+    }
+
+    .s-padding-top-1 {
+        padding-bottom: var(--xsmall);
+    }
+
+    .s-padding-top-2 {
+        padding-bottom: var(--small);
+    }
+
+    .s-padding-top-3 {
+        padding-bottom: var(--medium);
+    }
+
+    .s-padding-top-4 {
+        padding-bottom: var(--large);
+    }
+
+    .s-padding-top-5 {
+        padding-top: var(--xlarge);
+    }
+
+    .s-padding-bottom-1 {
+        padding-bottom: var(--xsmall);
+    }
+
+    .s-padding-bottom-2 {
+        padding-bottom: var(--small);
+    }
+
+    .s-padding-bottom-3 {
+        padding-bottom: var(--medium);
+    }
+
+    .s-padding-bottom-4 {
+        padding-bottom: var(--large);
+    }
+
+    .s-padding-bottom-5 {
+        padding-bottom: var(--xlarge);
+    }
+
+    .s-padding-right-1 {
+        padding-right: var(--xsmall);
+    }
+
+    .s-padding-right-2 {
+        padding-right: var(--small);
+    }
+
+    .s-padding-right-3 {
+        padding-right: var(--medium);
+    }
+
+    .s-padding-right-4 {
+        padding-right: var(--large);
+    }
+
+    .s-padding-right-5 {
+        padding-right: var(--xlarge);
+    }
+
+    .s-padding-left-1 {
+        padding-left: var(--xsmall);
+    }
+
+    .s-padding-left-2 {
+        padding-left: var(--small);
+    }
+
+    .s-padding-left-3 {
+        padding-left: var(--medium);
+    }
+
+    .s-padding-left-4 {
+        padding-left: var(--large);
+    }
+
+    .s-padding-left-5 {
+        padding-left: var(--xlarge);
+    }
+}
+
+/* This parts contains all margins */
+
+/* all margins */
+
+.margin-all-1 {
+    margin: var(--xsmall);
+}
+
+.margin-all-2 {
+    margin: var(--small);
+}
+
+.margin-all-3 {
+    margin: var(--medium);
+}
+
+.margin-all-4 {
+    margin: var(--large);
+}
+
+.margin-all-5 {
+    margin: var(--xlarge);
+}
+
+/* left margins */
+
+.margin-left-1 {
+    margin-left: var(--xsmall);
+}
+
+.margin-left-2 {
+    margin-left: var(--small);
+}
+
+.margin-left-3 {
+    margin-left: var(--medium);
+}
+
+.margin-left-4 {
+    margin-left: var(--large);
+}
+
+.margin-left-5 {
+    margin-left: var(--xlarge);
+}
+
+/* right margins */
+
+.margin-right-1 {
+    margin-right: var(--xsmall);
+}
+
+.margin-right-2 {
+    margin-right: var(--small);
+}
+
+.margin-right-3 {
+    margin-right: var(--medium);
+}
+
+.margin-right-4 {
+    margin-right: var(--large);
+}
+
+.margin-right-5 {
+    margin-right: var(--xlarge);
+}
+
+/* top margins */
+
+.margin-top-1 {
+    margin-top: var(--xsmall);
+}
+
+.margin-top-2 {
+    margin-top: var(--small);
+}
+
+.margin-top-3 {
+    margin-top: var(--medium);
+}
+
+.margin-top-4 {
+    margin-top: var(--large);
+}
+
+.margin-top-5 {
+    margin-top: var(--xlarge);
+}
+
+/* bottom margins */
+
+.margin-bottom-1 {
+    margin-bottom: var(--xsmall);
+}
+
+.margin-bottom-2 {
+    margin-bottom: var(--small);
+}
+
+.margin-bottom-3 {
+    margin-bottom: var(--medium);
+}
+
+.margin-bottom-4 {
+    margin-bottom: var(--large);
+}
+
+.margin-bottom-5 {
+    margin-bottom: var(--xlarge);
+}
+
+/* This part contains responsive part of the margin tools. */
+
+.m-margin-all-1 {
+}
+
+.m-margin-all-2 {
+}
+
+.m-margin-all-3 {
+}
+
+.m-margin-all-4 {
+}
+
+.m-margin-all-5 {
+}
+
+.m-margin-top-1 {
+}
+
+.m-margin-top-2 {
+}
+
+.m-margin-top-3 {
+}
+
+.m-margin-top-4 {
+}
+
+.m-margin-top-5 {
+}
+
+.m-margin-bottom-1 {
+}
+
+.m-margin-bottom-2 {
+}
+
+.m-margin-bottom-3 {
+}
+
+.m-margin-bottom-4 {
+}
+
+.m-margin-bottom-5 {
+}
+
+.m-margin-right-1 {
+}
+
+.m-margin-right-2 {
+}
+
+.m-margin-right-3 {
+}
+
+.m-margin-right-4 {
+}
+
+.m-margin-right-5 {
+}
+
+.m-margin-left-1 {
+}
+
+.m-margin-left-2 {
+}
+
+.m-margin-left-3 {
+}
+
+.m-margin-left-4 {
+}
+
+.m-margin-left-5 {
+}
+
+.s-margin-all-1 {
+}
+
+.s-margin-all-2 {
+}
+
+.s-margin-all-3 {
+}
+
+.s-margin-all-4 {
+}
+
+.s-margin-all-5 {
+}
+
+.s-margin-top-1 {
+}
+
+.s-margin-top-2 {
+}
+
+.s-margin-top-3 {
+}
+
+.s-margin-top-4 {
+}
+
+.s-margin-top-5 {
+}
+
+.s-margin-bottom-1 {
+}
+
+.s-margin-bottom-2 {
+}
+
+.s-margin-bottom-3 {
+}
+
+.s-margin-bottom-4 {
+}
+
+.s-margin-bottom-5 {
+}
+
+.s-margin-right-1 {
+}
+
+.s-margin-right-2 {
+}
+
+.s-margin-right-3 {
+}
+
+.s-margin-right-4 {
+}
+
+.s-margin-right-5 {
+}
+
+.s-margin-left-1 {
+}
+
+.s-margin-left-2 {
+}
+
+.s-margin-left-3 {
+}
+
+.s-margin-left-4 {
+}
+
+.s-margin-left-5 {
+}
+
+@media only screen and (max-width: 768px) {
+    .m-margin-all-1 {
+        margin: var(--xsmall);
+    }
+
+    .m-margin-all-2 {
+        margin: var(--small);
+    }
+
+    .m-margin-all-3 {
+        margin: var(--medium);
+    }
+
+    .m-margin-all-4 {
+        margin: var(--large);
+    }
+
+    .m-margin-all-5 {
+        margin: var(--xlarge);
+    }
+
+    .m-margin-top-1 {
+        margin-bottom: var(--xsmall);
+    }
+
+    .m-margin-top-2 {
+        margin-bottom: var(--small);
+    }
+
+    .m-margin-top-3 {
+        margin-bottom: var(--medium);
+    }
+
+    .m-margin-top-4 {
+        margin-bottom: var(--large);
+    }
+
+    .m-margin-top-5 {
+        margin-top: var(--xlarge);
+    }
+
+    .m-margin-bottom-1 {
+        margin-bottom: var(--xsmall);
+    }
+
+    .m-margin-bottom-2 {
+        margin-bottom: var(--small);
+    }
+
+    .m-margin-bottom-3 {
+        margin-bottom: var(--medium);
+    }
+
+    .m-margin-bottom-4 {
+        margin-bottom: var(--large);
+    }
+
+    .m-margin-bottom-5 {
+        margin-bottom: var(--xlarge);
+    }
+
+    .m-margin-right-1 {
+        margin-right: var(--xsmall);
+    }
+
+    .m-margin-right-2 {
+        margin-right: var(--small);
+    }
+
+    .m-margin-right-3 {
+        margin-right: var(--medium);
+    }
+
+    .m-margin-right-4 {
+        margin-right: var(--large);
+    }
+
+    .m-margin-right-5 {
+        margin-right: var(--xlarge);
+    }
+
+    .m-margin-left-1 {
+        margin-left: var(--xsmall);
+    }
+
+    .m-margin-left-2 {
+        margin-left: var(--small);
+    }
+
+    .m-margin-left-3 {
+        margin-left: var(--medium);
+    }
+
+    .m-margin-left-4 {
+        margin-left: var(--large);
+    }
+
+    .m-margin-left-5 {
+        margin-left: var(--xlarge);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .s-margin-all-1 {
+        margin: var(--xsmall);
+    }
+
+    .s-margin-all-2 {
+        margin: var(--small);
+    }
+
+    .s-margin-all-3 {
+        margin: var(--medium);
+    }
+
+    .s-margin-all-4 {
+        margin: var(--large);
+    }
+
+    .s-margin-all-5 {
+        margin: var(--xlarge);
+    }
+
+    .s-margin-top-1 {
+        margin-bottom: var(--xsmall);
+    }
+
+    .s-margin-top-2 {
+        margin-bottom: var(--small);
+    }
+
+    .s-margin-top-3 {
+        margin-bottom: var(--medium);
+    }
+
+    .s-margin-top-4 {
+        margin-bottom: var(--large);
+    }
+
+    .s-margin-top-5 {
+        margin-top: var(--xlarge);
+    }
+
+    .s-margin-bottom-1 {
+        margin-bottom: var(--xsmall);
+    }
+
+    .s-margin-bottom-2 {
+        margin-bottom: var(--small);
+    }
+
+    .s-margin-bottom-3 {
+        margin-bottom: var(--medium);
+    }
+
+    .s-margin-bottom-4 {
+        margin-bottom: var(--large);
+    }
+
+    .s-margin-bottom-5 {
+        margin-bottom: var(--xlarge);
+    }
+
+    .s-margin-right-1 {
+        margin-right: var(--xsmall);
+    }
+
+    .s-margin-right-2 {
+        margin-right: var(--small);
+    }
+
+    .s-margin-right-3 {
+        margin-right: var(--medium);
+    }
+
+    .s-margin-right-4 {
+        margin-right: var(--large);
+    }
+
+    .s-margin-right-5 {
+        margin-right: var(--xlarge);
+    }
+
+    .s-margin-left-1 {
+        margin-left: var(--xsmall);
+    }
+
+    .s-margin-left-2 {
+        margin-left: var(--small);
+    }
+
+    .s-margin-left-3 {
+        margin-left: var(--medium);
+    }
+
+    .s-margin-left-4 {
+        margin-left: var(--large);
+    }
+
+    .s-margin-left-5 {
+        margin-left: var(--xlarge);
+    }
+}
+
+/* FONT SIZES */
+
+/* This part contains every tools for font sizes */
+
+.font-size-1{
+    font-size: var(--xsmall);
+}
+
+.font-size-2 {
+    font-size: var(--small);
+}
+
+.font-size-3 {
+    font-size: var(--medium);
+}
+
+.font-size-4 {
+    font-size: var(--large);
+}
+
+.font-size-5 {
+    font-size: var(--xlarge);
+}
+
+.m-font-size-1 {
+}
+
+.m-font-size-2 {
+}
+
+.m-font-size-3 {
+}
+
+.m-font-size-4 {
+}
+
+.m-font-size-5 {
+}
+
+.s-font-size-1 {
+}
+
+.s-font-size-2 {
+}
+
+.s-font-size-3 {
+}
+
+.s-font-size-4 {
+}
+
+.s-font-size-5 {
+}
+
+/* This part contains responsive elements for font sizes. */
+
+@media only screen and (max-width: 768px){
+    .m-font-size-1 {
+        font-size: var(--xsmall);
+    }
+
+    .m-font-size-2 {
+        font-size: var(--small);
+    }
+
+    .m-font-size-3 {
+        font-size: var(--medium);
+    }
+
+    .m-font-size-4 {
+        font-size: var(--large);
+    }
+
+    .m-font-size-5 {
+        font-size: var(--xlarge);
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .s-font-size-1 {
+        font-size: var(--xsmall);
+    }
+
+    .s-font-size-2 {
+        font-size: var(--small);
+    }
+
+    .s-font-size-3 {
+        font-size: var(--medium);
+    }
+
+    .s-font-size-4 {
+        font-size: var(--large);
+    }
+
+    .s-font-size-5 {
+        font-size: var(--xlarge);
+    }
+}
+
+/* This part contains the position displays */
+
+/* top displays */
+
+.display-top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.display-top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.display-top-center {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* middle displays */
+
+.display-middle-left {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.display-middle-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.display-middle-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+/* bottom displays */
+
+.display-bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.display-bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.display-bottom-center {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* This part contains the position displays which are fixed */
+
+/* top displays fixed */
+
+.display-fixed-top-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.display-fixed-top-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.display-fixed-top-center {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* middle displays fixed */
+
+.display-fixed-middle-left {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.display-fixed-middle-center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.display-fixed-middle-right {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+/* bottom displays fixed */
+
+.display-fixed-bottom-left {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.display-fixed-bottom-right {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.display-fixed-bottom-center {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* BUTTON */
+
+/* This part contains button parts */
+
+.button {
+    border: 0;
+    text-decoration: none;
+}
+
+    .button:hover {
+        box-shadow: #d4d4d4 5px 5px 10px 5px;
+        cursor: pointer;
+        background-color: #c2c2c2;
+    }
+
+.button-magnet {
+    display: flex;
+    flex-direction: row;
+}
+
+/* TABLES */
+
+/* This part contains all table parts */
+
+.table, .table-4 {
+    text-align: left;
+    width: 100%;
+}
+
+    .table th, .table td, .table-4 th, .table-4 td {
+        padding: 4px;
+    }
+
+.table-4 {
+    text-align: left;
+    width: 100%;
+}
+
+    .table-4 th, .table-4 td {
+        padding: 4px;
+    }
+
+.table-8 {
+    text-align: left;
+    width: 100%;
+}
+
+    .table-8 th, .table-8 td {
+        padding: 8px;
+    }
+
+.table-12 {
+    text-align: left;
+    width: 100%;
+}
+
+    .table-12 th, .table-12 td {
+        padding: 12px;
+    }
+
+.table-16 {
+    text-align: left;
+    width: 100%;
+}
+
+    .table-16 th, .table-16 td {
+        padding: 16px;
+    }
+
+.table-20 {
+    text-align: left;
+    width: 100%;
+}
+
+    .table-20 th, .table-20 td {
+        padding: 20px;
+    }
+
+.table-24 {
+    text-align: left;
+    width: 100%;
+}
+
+    .table-24 th, .table-24 td {
+        padding: 24px;
+    }
+
+.table-28 {
+    text-align: left;
+    width: 100%;
+}
+
+    .table-28 th, .table-28 td {
+        padding: 28px;
+    }
+
+.table-32 {
+    text-align: left;
+    width: 100%;
+}
+
+    .table-32 th, .table-32 td {
+        padding: 32px;
+    }
+
+.table-36 {
+    text-align: left;
+    width: 100%;
+}
+
+    .table-36 th, .table-36 td {
+        padding: 36px;
+    }
+
+.table-40 {
+    text-align: left;
+    width: 100%;
+}
+
+    .table-40 th, .table-40 td {
+        padding: 40px;
+    }
+
+/* This part contains all parts of bordered tables */
+
+.table-border, .table-border-4 {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table-border th, .table-border td, .table-border-4 th, .table-border-4 td {
+        padding: 4px;
+        border-bottom: 1px solid #000000;
+    }
+
+.table-border-8 {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table-border-8 th, .table-border-8 td {
+        padding: 8px;
+        border-bottom: 1px solid #000000;
+    }
+
+.table-border-12 {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table-border-12 th, .table-border-12 td {
+        padding: 12px;
+        border-bottom: 1px solid #000000;
+    }
+
+.table-border-16 {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table-border-16 th, .table-border-16 td {
+        padding: 16px;
+        border-bottom: 1px solid #000000;
+    }
+
+.table-border-20 {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-border th, .table-border td {
+    padding: 20px;
+    border-bottom: 1px solid #000000;
+}
+
+.table-border-24 {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table-border-24 th, .table-border-24 td {
+        padding: 24px;
+        border-bottom: 1px solid #000000;
+    }
+
+.table-border-28 {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table-border-28 th, .table-border-28 td {
+        padding: 28px;
+        border-bottom: 1px solid #000000;
+    }
+
+.table-border-36 {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-border-32 th, .table-border-32 td {
+    padding: 32px;
+    border-bottom: 1px solid #000000;
+}
+
+.table-border-36 {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table-border-36 th, .table-border-36 td {
+        padding: 36px;
+        border-bottom: 1px solid #000000;
+    }
+
+.table-border-40 {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table-border-40 th, .table-border-40 td {
+        padding: 40px;
+        border-bottom: 1px solid #000000;
+    }
+
+/* This part contains all of stripped table parts */
+
+.table-strip, .table-strip-4 {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table-strip th, .table-strip td, .table-strip-4 th, .table-strip-4 td {
+        padding: 4px;
+    }
+
+    .table-strip tr:nth-child(2n+1), .table-strip-4 tr:nth-child(2n+1) {
+        background-color: silver;
+    }
+
+.table-strip-8 {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table-strip-8 th, .table-strip-8 td {
+        padding: 8px;
+    }
+
+    .table-strip-8 tr:nth-child(2n+1) {
+        background-color: silver;
+    }
+
+.table-strip-12 {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table-strip-12 th, .table-strip-12 td {
+        padding: 12px;
+    }
+
+    .table-strip-12 tr:nth-child(2n+1) {
+        background-color: silver;
+    }
+
+.table-strip-16 {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table-strip-16 th, .table-strip-16 td {
+        padding: 16px;
+    }
+
+    .table-strip-16 tr:nth-child(2n+1) {
+        background-color: silver;
+    }
+
+.table-strip-20 {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table-strip-20 th, .table-strip-20 td {
+        padding: 20px;
+    }
+
+    .table-strip-20 tr:nth-child(2n+1) {
+        background-color: silver;
+    }
+
+.table-strip-24 {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table-strip-24 th, .table-strip-24 td {
+        padding: 24px;
+    }
+
+    .table-strip-24 tr:nth-child(2n+1) {
+        background-color: silver;
+    }
+
+.table-strip-28 {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table-strip-28 th, .table-strip-28 td {
+        padding: 28px;
+    }
+
+    .table-strip-28 tr:nth-child(2n+1) {
+        background-color: silver;
+    }
+
+.table-strip-32 {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table-strip-32 th, .table-strip-32 td {
+        padding: 32px;
+    }
+
+    .table-strip-32 tr:nth-child(2n+1) {
+        background-color: silver;
+    }
+
+.table-strip-36 {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table-strip-36 th, .table-strip-36 td {
+        padding: 36px;
+    }
+
+    .table-strip-36 tr:nth-child(2n+1) {
+        background-color: silver;
+    }
+
+.table-strip-40 {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table-strip-40 th, .table-strip-40 td {
+        padding: 40px;
+    }
+
+    .table-strip-40 tr:nth-child(2n+1) {
+        background-color: silver;
+    }
+
+/* LISTS */
+
+/* This part contains the list elements */
+
+.ul {
+    list-style-type: none;
+}
+
+    .ul li {
+        border-bottom: 1px solid #000000;
+        padding: 4px;
+    }
+
+        .ul li:nth-last-child(-n+1) {
+            border-bottom: 0;
+        }
+
+/* IMAGES */
+
+/* This part contains all parts of image tools */
+
+.image {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* This part contains all input tools */
+
+.input {
+    border: 0;
+    transition: .5s;
+    transform: translate(0);
+}
+
+    .input:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+.input-box-shadow {
+    border: 0;
+    transition: .5s;
+    transform: translate(0);
+    box-shadow: silver 5px 5px 10px 5px;
+}
+
+    .input-box-shadow:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+.input-4 {
+    border: 0;
+    transition: .5s;
+    transform: translate(0);
+    padding: 4px;
+}
+
+    .input-4:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+.input-box-shadow-4 {
+    padding: 4px;
+    transition: .5s;
+    transform: translate(0);
+    box-shadow: silver 5px 5px 10px 5px;
+}
+
+    .input-box-shadow-4:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+.input-8 {
+    border: 0;
+    transition: .5s;
+    transform: translate(0);
+    padding: 8px;
+}
+
+    .input-8:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+.input-box-shadow-8 {
+    box-shadow: silver 5px 5px 10px 5px;
+    transition: .5s;
+    transform: translate(0);
+    padding: 8px;
+}
+
+    .input-box-shadow-8:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+.input-12 {
+    border: 0;
+    transition: .5s;
+    transform: translate(0);
+    padding: 12px;
+}
+
+    .input-12:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+.input-box-shadow-12 {
+    border: 0;
+    transition: .5s;
+    transform: translate(0);
+    box-shadow: silver 5px 5px 10px 5px;
+    padding: 12px;
+}
+
+    .input-box-shadow-12:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+.input-16 {
+    border: 0;
+    transition: .5s;
+    transform: translate(0);
+    padding: 16px;
+}
+
+    .input-16:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+.input-box-shadow-16 {
+    border: 0;
+    transition: .5s;
+    transform: translate(0);
+    box-shadow: silver 5px 5px 10px 5px;
+    padding: 16px;
+}
+
+    .input-box-shadow-16:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+.input-20 {
+    border: 0;
+    transition: .5s;
+    transform: translate(0);
+    padding: 20px;
+}
+
+    .input-20:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+.input-box-shadow-20 {
+    padding: 20px;
+    transition: .5s;
+    transform: translate(0);
+    border: 0;
+    box-shadow: silver 5px 5px 10px 5px;
+}
+
+    .input-box-shadow-20:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+.input-24 {
+    padding: 24px;
+    transition: .5s;
+    transform: translate(0);
+    border: 0;
+}
+
+    .input-24:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+.input-box-shadow-24 {
+    padding: 24px;
+    border: 0;
+    transition: .5s;
+    transform: translate(0);
+    box-shadow: silver 5px 5px 10px 5px;
+}
+
+    .input-box-shadow-24:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+.input-28 {
+    padding: 28px;
+    transition: .5s;
+    transform: translate(0);
+    border: 0;
+}
+
+    .input-28:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+.input-box-shadow-28 {
+    padding: 28px;
+    transition: .5s;
+    transform: translate(0);
+    border: 0;
+    box-shadow: silver 5px 5px 10px 5px;
+}
+
+    .input-box-shadow-28:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+.input-32 {
+    padding: 32px;
+    transition: .5s;
+    transform: translate(0);
+    border: 0;
+}
+
+    .input-32:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+.input-box-shadow-32 {
+    padding: 32px;
+    transition: .5s;
+    transform: translate(0);
+    border: 0;
+    box-shadow: silver 5px 5px 10px 5px;
+}
+
+    .input-box-shadow-32:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+.input-36 {
+    padding: 36px;
+    transition: .5s;
+    transform: translate(0);
+    border: 0;
+}
+
+    .input-36:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+.input-box-shadow-36 {
+    padding: 36px;
+    border: 0;
+    transition: .5s;
+    transform: translate(0);
+    box-shadow: silver 5px 5px 10px 5px;
+}
+
+    .input-box-shadow-36:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+.input-40 {
+    padding: 40px;
+    transition: .5s;
+    transform: translate(0);
+    border: 0;
+}
+
+    .input-40:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+.input-box-shadow-40 {
+    padding: 40px;
+    transition: .5s;
+    transform: translate(0);
+    border: 0;
+    box-shadow: silver 5px 5px 10px 5px;
+}
+
+    .input-box-shadow-40:focus {
+        transition: .5s;
+        transform: translate(5px);
+    }
+
+/* RESPONSIVE WIDTH */
+
+/* This part contains all the width tool elements */
+
+.ew1-5 {
+    width: 20%;
+}
+
+.ew2-5 {
+    width: 40%;
+}
+
+.ew3-5 {
+    width: 60%;
+}
+
+.ew4-5 {
+    width: 80%;
+}
+
+.ew5-5 {
+    width: 100%;
+}
+
+.ew1-4 {
+    width: 25%;
+}
+
+.ew2-4 {
+    width: 50%;
+}
+
+.ew3-4 {
+    width: 75%;
+}
+
+.ew4-4 {
+    width: 100%;
+}
+
+.ew1-12 {
+    width: 8.33333%;
+}
+
+.ew2-12 {
+    width: 16.66667%;
+}
+
+.ew3-12 {
+    width: 25%;
+}
+
+.ew4-12 {
+    width: 33.33333%;
+}
+
+.ew5-12 {
+    width: 41.66667%;
+}
+
+.ew6-12 {
+    width: 50%;
+}
+
+.ew7-12 {
+    width: 58.33333%;
+}
+
+.ew8-12 {
+    width: 66.66666%;
+}
+
+.ew9-12 {
+    width: 75%;
+}
+
+.ew10-12 {
+    width: 81.33333%;
+}
+
+.ew11-12 {
+    width: 91.66667%;
+}
+
+.ew12-12 {
+    width: 100%;
+}
+
+/* This part contains row responsive elements and tools. */
+
+.row-bar {
+    display: flex;
+    flex-direction:row;
+}
+
+.row-bar-4 {
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+}
+
+    .row-bar-4 .row-element {
+        padding: 4px;
+        margin: 4px;
+    }
+
+.row-bar-8 {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+}
+
+    .row-bar-8 .row-element {
+        padding: 8px;
+        margin: 8px;
+    }
+
+.row-bar-12 {
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+}
+
+    .row-bar-12 .row-element {
+        padding: 12px;
+        margin: 12px;
+    }
+
+.row-bar-16 {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+}
+
+    .row-bar-16 .row-element {
+        padding: 16px;
+        margin: 16px;
+    }
+
+.row-bar-20 {
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+}
+
+    .row-bar-20 .row-element {
+        padding: 4px;
+        margin: 4px;
+    }
+
+.row-bar-24 {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+}
+
+    .row-bar-24 .row-element {
+        padding: 8px;
+        margin: 8px;
+    }
+
+.row-bar-28 {
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+}
+
+    .row-bar-28 .row-element {
+        padding: 12px;
+        margin: 12px;
+    }
+
+.row-bar-32 {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+}
+
+    .row-bar-32 .row-element {
+        padding: 16px;
+        margin: 16px;
+    }
+
+.row-bar-36 {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+}
+
+    .row-bar-36 .row-element {
+        padding: 8px;
+        margin: 8px;
+    }
+
+.row-bar-40 {
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+}
+
+    .row-bar-40 .row-element {
+        padding: 12px;
+        margin: 12px;
+    }
+
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.row-reverse-4 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 4px;
+}
+
+    .row-reverse-4 .row-element {
+        padding: 4px;
+        margin: 4px;
+    }
+
+.row-reverse-8 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 8px;
+}
+
+    .row-reverse-8 .row-element {
+        padding: 8px;
+        margin: 8px;
+    }
+
+.row-reverse-12 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 12px;
+}
+
+    .row-reverse-12 .row-element {
+        padding: 12px;
+        margin: 12px;
+    }
+
+.row-reverse-16 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 16px;
+}
+
+    .row-reverse-16 .row-element {
+        padding: 16px;
+        margin: 16px;
+    }
+
+.row-reverse-20 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 4px;
+}
+
+    .row-reverse-20 .row-element {
+        padding: 4px;
+        margin: 4px;
+    }
+
+.row-reverse-24 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 8px;
+}
+
+    .row-reverse-24 .row-element {
+        padding: 8px;
+        margin: 8px;
+    }
+
+.row-reverse-28 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 12px;
+}
+
+    .row-reverse-28 .row-element {
+        padding: 12px;
+        margin: 12px;
+    }
+
+.row-reverse-32 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 16px;
+}
+
+    .row-reverse-32 .row-element {
+        padding: 16px;
+        margin: 16px;
+    }
+
+.row-reverse-36 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 8px;
+}
+
+    .row-reverse-36 .row-element {
+        padding: 8px;
+        margin: 8px;
+    }
+
+.row-reverse-40 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 12px;
+}
+
+    .row-reverse-40 .row-element {
+        padding: 12px;
+        margin: 12px;
+    }
+
+/* All responsive elements are over here. */
+
+[class^="row"] .b1-12 {
+    width: 8.33333%;
+}
+
+[class^="row"] .b2-12 {
+    width: 16.66667%;
+}
+
+[class^="row"] .b3-12 {
+    width: 25%;
+}
+
+[class^="row"] .b4-12 {
+    width: 33.33333%;
+}
+
+[class^="row"] .b5-12 {
+    width: 41.66667%;
+}
+
+[class^="row"] .b6-12 {
+    width: 50%;
+}
+
+[class^="row"] .b7-12 {
+    width: 58.33333%;
+}
+
+[class^="row"] .b8-12 {
+    width: 66.66666%;
+}
+
+[class^="row"] .b9-12 {
+    width: 75%;
+}
+
+[class^="row"] .b10-12 {
+    width: 83.33333%;
+}
+
+[class^="row"] .b11-12 {
+    width: 91.66667%;
+}
+
+[class^="row"] .b12-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    [class^="row"] {
+        flex-direction: column;
+    }
+
+        [class^="row"] .m1-12 {
+            width: 8.33333%;
+        }
+
+        [class^="row"] .m2-12 {
+            width: 16.66667%;
+        }
+
+        [class^="row"] .m3-12 {
+            width: 25%;
+        }
+
+        [class^="row"] .m4-12 {
+            width: 33.33333%;
+        }
+
+        [class^="row"] .m5-12 {
+            width: 41.66667%;
+        }
+
+        [class^="row"] .m6-12 {
+            width: 50%;
+        }
+
+        [class^="row"] .m7-12 {
+            width: 58.33333%;
+        }
+
+        [class^="row"] .m8-12 {
+            width: 66.66666%;
+        }
+
+        [class^="row"] .m9-12 {
+            width: 75%;
+        }
+
+        [class^="row"] .m10-12 {
+            width: 83.33333%;
+        }
+
+        [class^="row"] .m11-12 {
+            width: 91.66667%;
+        }
+
+        [class^="row"] .m12-12 {
+            width: 100%;
+        }
+}
+
+@media only screen and (max-width: 600px){
+    [class^="row"] {
+        flex-direction: column;
+    }
+
+        [class^="row"] .s1-12 {
+            width: 8.33333%;
+        }
+
+        [class^="row"] .s2-12 {
+            width: 16.66667%;
+        }
+
+        [class^="row"] .s3-12 {
+            width: 25%;
+        }
+
+        [class^="row"] .s4-12 {
+            width: 33.33333%;
+        }
+
+        [class^="row"] .s5-12 {
+            width: 41.66667%;
+        }
+
+        [class^="row"] .s6-12 {
+            width: 50%;
+        }
+
+        [class^="row"] .s7-12 {
+            width: 58.33333%;
+        }
+
+        [class^="row"] .s8-12 {
+            width: 66.66666%;
+        }
+
+        [class^="row"] .s9-12 {
+            width: 75%;
+        }
+
+        [class^="row"] .s10-12 {
+            width: 83.33333%;
+        }
+
+        [class^="row"] .s11-12 {
+            width: 91.66667%;
+        }
+
+        [class^="row"] .s12-12 {
+            width: 100%;
+        }
+}
+
+/* Background Colors */
+
+.backColor-pink{
+    background-color: pink;
+}
+
+.backColor-lightPink {
+    background-color: lightpink;
+}
+
+.backColor-hotPink {
+    background-color: hotpink;
+}
+
+.backColor-deepPink {
+    background-color: deeppink;
+}
+
+.backColor-paleVioletRed {
+    background-color: palevioletred;
+}
+
+.backColor-mediumVioletRed {
+    background-color: mediumvioletred;
+}
+
+.backColor-lavender {
+    background-color: lavender;
+}
+
+.backColor-thistle {
+    background-color: thistle;
+}
+
+.backColor-plum {
+    background-color: plum;
+}
+
+.backColor-orchid {
+    background-color: orchid;
+}
+
+.backColor-violet {
+    background-color: violet;
+}
+
+.backColor-fuchsia {
+    background-color: fuchsia;
+}
+
+.backColor-magenta {
+    background-color: magenta;
+}
+
+.backColor-mediumOrchid {
+    background-color: mediumorchid;
+}
+
+.backColor-darkOrchid {
+    background-color: darkorchid;
+}
+
+.backColor-darkViolet {
+    background-color: darkviolet;
+}
+
+.backColor-blueViolet {
+    background-color: blueviolet;
+}
+
+.backColor-darkMagenta {
+    background-color: darkmagenta;
+}
+
+.backColor-purple {
+    background-color: purple;
+}
+
+.backColor-mediumPurple {
+    background-color: mediumpurple;
+}
+
+.backColor-mediumSlateBlue {
+    background-color: mediumslateblue;
+}
+
+.backColor-slateBlue {
+    background-color: slateblue;
+}
+
+.backColor-darkSlateBlue {
+    background-color: darkslateblue;
+}
+
+.backColor-rebeccaPurple {
+    background-color: rebeccapurple;
+}
+
+.backColor-indigo {
+    background-color: indigo;
+}
+
+.backColor-lightSalmon {
+    background-color: lightsalmon;
+}
+
+.backColor-salmon {
+    background-color: salmon;
+}
+
+.backColor-darkSalmon {
+    background-color: darksalmon;
+}
+
+.backColor-lightCoral {
+    background-color: lightcoral;
+}
+
+.backColor-indianRed {
+    background-color: indianred;
+}
+
+.backColor-crimson {
+    background-color: crimson;
+}
+
+.backColor-red {
+    background-color: red;
+}
+
+.backColor-firebrick {
+    background-color: firebrick;
+}
+
+.backColor-darkRed {
+    background-color: darkred;
+}
+
+.backColor-orange {
+    background-color: orange;
+}
+
+.backColor-darkOrange {
+    background-color: darkorange;
+}
+
+.backColor-coral {
+    background-color: coral;
+}
+
+.backColor-tomato {
+    background-color: tomato;
+}
+
+.backColor-orangeRed {
+    background-color: orangered;
+}
+
+.backColor-gold {
+    background-color: gold;
+}
+
+.backColor-yellow {
+    background-color: yellow;
+}
+
+.backColor-lightYellow {
+    background-color: lightyellow;
+}
+
+.backColor-lemonChiffon {
+    background-color: lemonchiffon;
+}
+
+.backColor-lightGoldenRodYellow {
+    background-color: lightgoldenrodyellow;
+}
+
+.backColor-papayaWhip {
+    background-color: papayawhip;
+}
+
+.backColor-moccasin {
+    background-color: moccasin;
+}
+
+.backColor-peachPuff {
+    background-color: peachpuff;
+}
+
+.backColor-paleGoldenRod {
+    background-color: palegoldenrod;
+}
+
+.backColor-khaki {
+    background-color: khaki;
+}
+
+.backColor-darkKhaki {
+    background-color: darkkhaki;
+}
+
+.backColor-greenYellow {
+    background-color: greenyellow;
+}
+
+.backColor-chartreuse {
+    background-color: chartreuse;
+}
+
+.backColor-lawnGreen {
+    background-color: lawngreen;
+}
+
+.backColor-lime {
+    background-color: lime;
+}
+
+.backColor-limeGreen {
+    background-color: limegreen;
+}
+
+.backColor-paleGreen {
+    background-color: palegreen;
+}
+
+.backColor-mediumSpringGreen {
+    background-color: mediumspringgreen;
+}
+
+.backColor-springGreen {
+    background-color: springgreen;
+}
+
+.backColor-mediumSeaGreen {
+    background-color: mediumseagreen;
+}
+
+.backColor-seaGreen {
+    background-color: seagreen;
+}
+
+.backColor-forestGreen {
+    background-color: forestgreen;
+}
+
+.backColor-green {
+    background-color: green;
+}
+
+.backColor-darkGreen {
+    background-color: darkgreen;
+}
+
+.backColor-yellowGreen {
+    background-color: yellowgreen;
+}
+
+.backColor-oliveDrab {
+    background-color: olivedrab;
+}
+
+.backColor-darkOliveGreen {
+    background-color: darkolivegreen;
+}
+
+.backColor-mediumAquaMarine {
+    background-color: mediumaquamarine;
+}
+
+.backColor-darkSeaGreen {
+    background-color: darkseagreen;
+}
+
+.backColor-lightSeaGreen {
+    background-color: lightseagreen;
+}
+
+.backColor-darkCyan {
+    background-color: darkcyan;
+}
+
+.backColor-teal {
+    background-color: teal;
+}
+
+.backColor-aqua {
+    background-color: aqua;
+}
+
+.backColor-cyan {
+    background-color: cyan;
+}
+
+.backColor-lightCyan {
+    background-color: lightCyan;
+}
+
+.backColor-paleTurquoise {
+    background-color: paleturquoise;
+}
+
+.backColor-aquamarine {
+    background-color: aquamarine;
+}
+
+.backColor-turquoise {
+    background-color: turquoise;
+}
+
+.backColor-mediumTurquoise {
+    background-color: mediumturquoise;
+}
+
+.backColor-cadetBlue {
+    background-color: cadetblue;
+}
+
+.backColor-steelBlue {
+    background-color: steelblue;
+}
+
+.backColor-lightSteelBlue {
+    background-color: lightsteelblue;
+}
+
+.backColor-lightBlue {
+    background-color: lightblue;
+}
+
+.backColor-powderBlue {
+    background-color: powderblue;
+}
+
+.backColor-lightSkyBlue {
+    background-color: lightskyblue;
+}
+
+.backColor-skyBlue {
+    background-color: skyblue;
+}
+
+.backColor-cornflowerBlue {
+    background-color: cornflowerblue;
+}
+
+.backColor-deepSkyBlue {
+    background-color: deepskyblue;
+}
+
+.backColor-dodgerBlue {
+    background-color: dodgerblue;
+}
+
+.backColor-royalBlue {
+    background-color: royalblue;
+}
+
+.backColor-blue {
+    background-color: blue;
+}
+
+.backColor-mediumBlue {
+    background-color: mediumblue;
+}
+
+.backColor-darkBlue {
+    background-color: darkblue;
+}
+
+.backColor-navy {
+    background-color: navy;
+}
+
+.backColor-midnightBlue {
+    background-color: midnightblue;
+}
+
+.backColor-cornsilk {
+    background-color: cornsilk;
+}
+
+.backColor-blanchedAlmond {
+    background-color: blanchedalmond;
+}
+
+.backColor-bisque {
+    background-color: bisque;
+}
+
+.backColor-navajoWhite {
+    background-color: navajowhite;
+}
+
+.backColor-wheat {
+    background-color: wheat;
+}
+
+.backColor-burlyWood {
+    background-color: burlywood;
+}
+
+.backColor-tan {
+    background-color: tan;
+}
+
+.backColor-rosyBrown {
+    background-color: rosybrown;
+}
+
+.backColor-sandyBrown {
+    background-color: sandybrown;
+}
+
+.backColor-goldenRod {
+    background-color: goldenrod;
+}
+
+.backColor-darkGoldenRod {
+    background-color: darkgoldenrod;
+}
+
+.backColor-peru {
+    background-color: peru;
+}
+
+.backColor-chocolate {
+    background-color: chocolate;
+}
+
+.backColor-olive {
+    background-color: olive;
+}
+
+.backColor-saddleBrown {
+    background-color: saddlebrown;
+}
+
+.backColor-sienna {
+    background-color: sienna;
+}
+
+.backColor-brown {
+    background-color: brown;
+}
+
+.backColor-maroon {
+    background-color: maroon;
+}
+
+.backColor-white {
+    background-color: white;
+}
+
+.backColor-snow {
+    background-color: snow;
+}
+
+.backColor-honeyDew {
+    background-color: honeydew;
+}
+
+.backColor-mintCream {
+    background-color: mintcream;
+}
+
+.backColor-azure {
+    background-color: azure;
+}
+
+.backColor-aliceBlue {
+    background-color: aliceblue;
+}
+
+.backColor-ghostWhite {
+    background-color: ghostwhite;
+}
+
+.backColor-whiteSmoke {
+    background-color: whitesmoke;
+}
+
+.backColor-seaShell {
+    background-color: seashell;
+}
+
+.backColor-beige {
+    background-color: beige;
+}
+
+.backColor-oldLace {
+    background-color: oldlace;
+}
+
+.backColor-floralWhite {
+    background-color: floralwhite;
+}
+
+.backColor-Ivory {
+    background-color: ivory;
+}
+
+.backColor-antiqueWhite {
+    background-color: antiquewhite;
+}
+
+.backColor-linen {
+    background-color: linen;
+}
+
+.backColor-lavenderBlush {
+    background-color: lavenderblush;
+}
+
+.backColor-mistyRose {
+    background-color: mistyrose;
+}
+
+.backColor-gainsboro {
+    background-color: gainsboro;
+}
+
+.backColor-lightGray {
+    background-color: lightgray;
+}
+
+.backColor-silver {
+    background-color: silver;
+}
+
+.backColor-darkGray {
+    background-color: darkgray;
+}
+
+.backColor-dimGray {
+    background-color: dimgray;
+}
+
+.backColor-gray {
+    background-color: gray;
+}
+
+.backColor-lightSlateGray {
+    background-color: lightslategray;
+}
+
+.backColor-slateGray {
+    background-color: slategray;
+}
+
+.backColor-darkSlateGray {
+    background-color: darkslategray;
+}
+
+.backColor-black {
+    background-color: black;
+}
+
+/* Font Colors */
+
+.fontColor-pink {
+    color: pink;
+}
+
+.fontColor-lightPink {
+    color: lightpink;
+}
+
+.fontColor-hotPink {
+    color: hotpink;
+}
+
+.fontColor-deepPink {
+    color: deeppink;
+}
+
+.fontColor-paleVioletRed {
+    color: palevioletred;
+}
+
+.fontColor-mediumVioletRed {
+    color: mediumvioletred;
+}
+
+.fontColor-lavender {
+    color: lavender;
+}
+
+.fontColor-thistle {
+    color: thistle;
+}
+
+.fontColor-plum {
+    color: plum;
+}
+
+.fontColor-orchid {
+    color: orchid;
+}
+
+.fontColor-violet {
+    color: violet;
+}
+
+.fontColor-fuchsia {
+    color: fuchsia;
+}
+
+.fontColor-magenta {
+    color: magenta;
+}
+
+.fontColor-mediumOrchid {
+    color: mediumorchid;
+}
+
+.fontColor-darkOrchid {
+    color: darkorchid;
+}
+
+.fontColor-darkViolet {
+    color: darkviolet;
+}
+
+.fontColor-blueViolet {
+    color: blueviolet;
+}
+
+.fontColor-darkMagenta {
+    color: darkmagenta;
+}
+
+.fontColor-purple {
+    color: purple;
+}
+
+.fontColor-mediumPurple {
+    color: mediumpurple;
+}
+
+.fontColor-mediumSlateBlue {
+    color: mediumslateblue;
+}
+
+.fontColor-slateBlue {
+    color: slateblue;
+}
+
+.fontColor-darkSlateBlue {
+    color: darkslateblue;
+}
+
+.fontColor-rebeccaPurple {
+    color: rebeccapurple;
+}
+
+.fontColor-indigo {
+    color: indigo;
+}
+
+.fontColor-lightSalmon {
+    color: lightsalmon;
+}
+
+.fontColor-salmon {
+    color: salmon;
+}
+
+.fontColor-darkSalmon {
+    color: darksalmon;
+}
+
+.fontColor-lightCoral {
+    color: lightcoral;
+}
+
+.fontColor-indianRed {
+    color: indianred;
+}
+
+.fontColor-crimson {
+    color: crimson;
+}
+
+.fontColor-red {
+    color: red;
+}
+
+.fontColor-firebrick {
+    color: firebrick;
+}
+
+.fontColor-darkRed {
+    color: darkred;
+}
+
+.fontColor-orange {
+    color: orange;
+}
+
+.fontColor-darkOrange {
+    color: darkorange;
+}
+
+.fontColor-coral {
+    color: coral;
+}
+
+.fontColor-tomato {
+    color: tomato;
+}
+
+.fontColor-orangeRed {
+    color: orangered;
+}
+
+.fontColor-gold {
+    color: gold;
+}
+
+.fontColor-yellow {
+    color: yellow;
+}
+
+.fontColor-lightYellow {
+    color: lightyellow;
+}
+
+.fontColor-lemonChiffon {
+    color: lemonchiffon;
+}
+
+.fontColor-lightGoldenRodYellow {
+    color: lightgoldenrodyellow;
+}
+
+.fontColor-papayaWhip {
+    color: papayawhip;
+}
+
+.fontColor-moccasin {
+    color: moccasin;
+}
+
+.fontColor-peachPuff {
+    color: peachpuff;
+}
+
+.fontColor-paleGoldenRod {
+    color: palegoldenrod;
+}
+
+.fontColor-khaki {
+    color: khaki;
+}
+
+.fontColor-darkKhaki {
+    color: darkkhaki;
+}
+
+.fontColor-greenYellow {
+    color: greenyellow;
+}
+
+.fontColor-chartreuse {
+    color: chartreuse;
+}
+
+.fontColor-lawnGreen {
+    color: lawngreen;
+}
+
+.fontColor-lime {
+    color: lime;
+}
+
+.fontColor-limeGreen {
+    color: limegreen;
+}
+
+.fontColor-paleGreen {
+    color: palegreen;
+}
+
+.fontColor-mediumSpringGreen {
+    color: mediumspringgreen;
+}
+
+.fontColor-springGreen {
+    color: springgreen;
+}
+
+.fontColor-mediumSeaGreen {
+    color: mediumseagreen;
+}
+
+.fontColor-seaGreen {
+    color: seagreen;
+}
+
+.fontColor-forestGreen {
+    color: forestgreen;
+}
+
+.fontColor-green {
+    color: green;
+}
+
+.fontColor-darkGreen {
+    color: darkgreen;
+}
+
+.fontColor-yellowGreen {
+    color: yellowgreen;
+}
+
+.fontColor-oliveDrab {
+    color: olivedrab;
+}
+
+.fontColor-darkOliveGreen {
+    color: darkolivegreen;
+}
+
+.fontColor-mediumAquaMarine {
+    color: mediumaquamarine;
+}
+
+.fontColor-darkSeaGreen {
+    color: darkseagreen;
+}
+
+.fontColor-lightSeaGreen {
+    color: lightseagreen;
+}
+
+.fontColor-darkCyan {
+    color: darkcyan;
+}
+
+.fontColor-teal {
+    color: teal;
+}
+
+.fontColor-aqua {
+    color: aqua;
+}
+
+.fontColor-cyan {
+    color: cyan;
+}
+
+.fontColor-lightCyan {
+    color: lightCyan;
+}
+
+.fontColor-paleTurquoise {
+    color: paleturquoise;
+}
+
+.fontColor-aquamarine {
+    color: aquamarine;
+}
+
+.fontColor-turquoise {
+    color: turquoise;
+}
+
+.fontColor-mediumTurquoise {
+    color: mediumturquoise;
+}
+
+.fontColor-cadetBlue {
+    color: cadetblue;
+}
+
+.fontColor-steelBlue {
+    color: steelblue;
+}
+
+.fontColor-lightSteelBlue {
+    color: lightsteelblue;
+}
+
+.fontColor-lightBlue {
+    color: lightblue;
+}
+
+.fontColor-powderBlue {
+    color: powderblue;
+}
+
+.fontColor-lightSkyBlue {
+    color: lightskyblue;
+}
+
+.fontColor-skyBlue {
+    color: skyblue;
+}
+
+.fontColor-cornflowerBlue {
+    color: cornflowerblue;
+}
+
+.fontColor-deepSkyBlue {
+    color: deepskyblue;
+}
+
+.fontColor-dodgerBlue {
+    color: dodgerblue;
+}
+
+.fontColor-royalBlue {
+    color: royalblue;
+}
+
+.fontColor-blue {
+    color: blue;
+}
+
+.fontColor-mediumBlue {
+    color: mediumblue;
+}
+
+.fontColor-darkBlue {
+    color: darkblue;
+}
+
+.fontColor-navy {
+    color: navy;
+}
+
+.fontColor-midnightBlue {
+    color: midnightblue;
+}
+
+.fontColor-cornsilk {
+    color: cornsilk;
+}
+
+.fontColor-blanchedAlmond {
+    color: blanchedalmond;
+}
+
+.fontColor-bisque {
+    color: bisque;
+}
+
+.fontColor-navajoWhite {
+    color: navajowhite;
+}
+
+.fontColor-wheat {
+    color: wheat;
+}
+
+.fontColor-burlyWood {
+    color: burlywood;
+}
+
+.fontColor-tan {
+    color: tan;
+}
+
+.fontColor-rosyBrown {
+    color: rosybrown;
+}
+
+.fontColor-sandyBrown {
+    color: sandybrown;
+}
+
+.fontColor-goldenRod {
+    color: goldenrod;
+}
+
+.fontColor-darkGoldenRod {
+    color: darkgoldenrod;
+}
+
+.fontColor-peru {
+    color: peru;
+}
+
+.fontColor-chocolate {
+    color: chocolate;
+}
+
+.fontColor-olive {
+    color: olive;
+}
+
+.fontColor-saddleBrown {
+    color: saddlebrown;
+}
+
+.fontColor-sienna {
+    color: sienna;
+}
+
+.fontColor-brown {
+    color: brown;
+}
+
+.fontColor-maroon {
+    color: maroon;
+}
+
+.fontColor-white {
+    color: white;
+}
+
+.fontColor-snow {
+    color: snow;
+}
+
+.fontColor-honeyDew {
+    color: honeydew;
+}
+
+.fontColor-mintCream {
+    color: mintcream;
+}
+
+.fontColor-azure {
+    color: azure;
+}
+
+.fontColor-aliceBlue {
+    color: aliceblue;
+}
+
+.fontColor-ghostWhite {
+    color: ghostwhite;
+}
+
+.fontColor-whiteSmoke {
+    color: whitesmoke;
+}
+
+.fontColor-seaShell {
+    color: seashell;
+}
+
+.fontColor-beige {
+    color: beige;
+}
+
+.fontColor-oldLace {
+    color: oldlace;
+}
+
+.fontColor-floralWhite {
+    color: floralwhite;
+}
+
+.fontColor-Ivory {
+    color: ivory;
+}
+
+.fontColor-antiqueWhite {
+    color: antiquewhite;
+}
+
+.fontColor-linen {
+    color: linen;
+}
+
+.fontColor-lavenderBlush {
+    color: lavenderblush;
+}
+
+.fontColor-mistyRose {
+    color: mistyrose;
+}
+
+.fontColor-gainsboro {
+    color: gainsboro;
+}
+
+.fontColor-lightGray {
+    color: lightgray;
+}
+
+.fontColor-silver {
+    color: silver;
+}
+
+.fontColor-darkGray {
+    color: darkgray;
+}
+
+.fontColor-dimGray {
+    color: dimgray;
+}
+
+.fontColor-gray {
+    color: gray;
+}
+
+.fontColor-lightSlateGray {
+    color: lightslategray;
+}
+
+.fontColor-slateGray {
+    color: slategray;
+}
+
+.fontColor-darkSlateGray {
+    color: darkslategray;
+}
+
+.fontColor-black {
+    color: black;
+}
+
+/* HOVER COLORS */
+
+/* This part contains all colors while hovered by the user cursor. */
+
+.backColor-hover-pink {
+}
+
+    .backColor-hover-pink:hover {
+        background-color: pink;
+    }
+
+.backColor-hover-lightPink {
+}
+
+    .backColor-hover-lightPink:hover {
+        background-color: lightpink;
+    }
+
+.backColor-hover-hotPink {
+}
+
+    .backColor-hover-hotPink:hover {
+        background-color: hotpink;
+    }
+
+.backColor-hover-deepPink {
+}
+
+    .backColor-hover-deepPink:hover {
+        background-color: deeppink;
+    }
+
+.backColor-hover-paleVioletRed {
+}
+
+    .backColor-hover-paleVioletRed:hover {
+        background-color: palevioletred;
+    }
+
+.backColor-hover-mediumVioletRed {
+}
+
+    .backColor-hover-mediumVioletRed:hover {
+        background-color: mediumvioletred;
+    }
+
+.backColor-hover-lavender {
+}
+
+    .backColor-hover-lavender:hover {
+        background-color: lavender;
+    }
+
+.backColor-hover-thistle {
+}
+
+    .backColor-hover-thistle:hover {
+        background-color: thistle;
+    }
+
+.backColor-hover-plum {
+}
+
+    .backColor-hover-plum:hover {
+        background-color: plum;
+    }
+
+.backColor-hover-orchid {
+}
+
+    .backColor-hover-orchid:hover {
+        background-color: orchid;
+    }
+
+.backColor-hover-violet {
+}
+
+    .backColor-hover-violet:hover {
+        background-color: violet;
+    }
+
+.backColor-hover-fuchsia {
+}
+
+    .backColor-hover-fuchsia:hover {
+        background-color: fuchsia;
+    }
+
+.backColor-hover-magenta {
+}
+
+    .backColor-hover-magenta:hover {
+        background-color: magenta;
+    }
+
+.backColor-hover-mediumOrchid {
+}
+
+    .backColor-hover-mediumOrchid:hover {
+        background-color: mediumorchid;
+    }
+
+.backColor-hover-darkOrchid {
+}
+
+    .backColor-hover-darkOrchid:hover {
+        background-color: darkorchid;
+    }
+
+.backColor-hover-darkViolet {
+}
+
+    .backColor-hover-darkViolet:hover {
+        background-color: darkviolet;
+    }
+
+.backColor-hover-blueViolet {
+}
+
+    .backColor-hover-blueViolet:hover {
+        background-color: blueviolet;
+    }
+
+.backColor-hover-darkMagenta {
+}
+
+    .backColor-hover-darkMagenta:hover {
+        background-color: darkmagenta;
+    }
+
+.backColor-hover-purple {
+}
+
+    .backColor-hover-purple:hover {
+        background-color: purple;
+    }
+
+.backColor-hover-mediumPurple {
+}
+
+    .backColor-hover-mediumPurple:hover {
+        background-color: mediumpurple;
+    }
+
+.backColor-hover-mediumSlateBlue {
+}
+
+    .backColor-hover-mediumSlateBlue:hover {
+        background-color: mediumslateblue;
+    }
+
+.backColor-hover-slateBlue {
+}
+
+    .backColor-hover-slateBlue:hover {
+        background-color: slateblue;
+    }
+
+.backColor-hover-darkSlateBlue {
+}
+
+    .backColor-hover-darkSlateBlue:hover {
+        background-color: darkslateblue;
+    }
+
+.backColor-hover-rebeccaPurple {
+}
+
+    .backColor-hover-rebeccaPurple:hover {
+        background-color: rebeccapurple;
+    }
+
+.backColor-hover-indigo {
+}
+
+    .backColor-hover-indigo:hover {
+        background-color: indigo;
+    }
+
+.backColor-hover-lightSalmon {
+}
+
+    .backColor-hover-lightSalmon:hover {
+        background-color: lightsalmon;
+    }
+
+.backColor-hover-salmon {
+}
+
+    .backColor-hover-salmon:hover {
+        background-color: salmon;
+    }
+
+.backColor-hover-darkSalmon {
+}
+
+    .backColor-hover-darkSalmon:hover {
+        background-color: darksalmon;
+    }
+
+.backColor-hover-lightCoral {
+}
+
+    .backColor-hover-lightCoral:hover {
+        background-color: lightcoral;
+    }
+
+.backColor-hover-indianRed {
+}
+
+    .backColor-hover-indianRed:hover {
+        background-color: indianred;
+    }
+
+.backColor-hover-crimson {
+}
+
+    .backColor-hover-crimson:hover {
+        background-color: crimson;
+    }
+
+.backColor-hover-red {
+}
+
+    .backColor-hover-red:hover {
+        background-color: red;
+    }
+
+.backColor-hover-firebrick {
+}
+
+    .backColor-hover-firebrick:hover {
+        background-color: firebrick;
+    }
+
+.backColor-hover-darkRed {
+}
+
+    .backColor-hover-darkRed:hover {
+        background-color: darkred;
+    }
+
+.backColor-hover-orange {
+}
+
+    .backColor-hover-orange:hover {
+        background-color: orange;
+    }
+
+.backColor-hover-darkOrange {
+}
+
+    .backColor-hover-darkOrange:hover {
+        background-color: darkorange;
+    }
+
+.backColor-hover-coral {
+}
+
+    .backColor-hover-coral:hover {
+        background-color: coral;
+    }
+
+.backColor-hover-tomato {
+}
+
+    .backColor-hover-tomato:hover {
+        background-color: tomato;
+    }
+
+.backColor-hover-orangeRed {
+}
+
+    .backColor-hover-orangeRed:hover {
+        background-color: orangered;
+    }
+
+.backColor-hover-gold {
+}
+
+    .backColor-hover-gold:hover {
+        background-color: gold;
+    }
+
+.backColor-hover-yellow {
+}
+
+    .backColor-hover-yellow:hover {
+        background-color: yellow;
+    }
+
+.backColor-hover-lightYellow {
+}
+
+    .backColor-hover-lightYellow:hover {
+        background-color: lightyellow;
+    }
+
+.backColor-hover-lemonChiffon {
+}
+
+    .backColor-hover-lemonChiffon:hover {
+        background-color: lemonchiffon;
+    }
+
+.backColor-hover-lightGoldenRodYellow {
+}
+
+    .backColor-hover-lightGoldenRodYellow:hover {
+        background-color: lightgoldenrodyellow;
+    }
+
+.backColor-hover-papayaWhip {
+}
+
+    .backColor-hover-papayaWhip:hover {
+        background-color: papayawhip;
+    }
+
+.backColor-hover-moccasin {
+}
+
+    .backColor-hover-moccasin:hover {
+        background-color: moccasin;
+    }
+
+.backColor-hover-peachPuff {
+}
+
+    .backColor-hover-peachPuff:hover {
+        background-color: peachpuff;
+    }
+
+.backColor-hover-paleGoldenRod {
+}
+
+    .backColor-hover-paleGoldenRod:hover {
+        background-color: palegoldenrod;
+    }
+
+.backColor-hover-khaki {
+}
+
+    .backColor-hover-khaki:hover {
+        background-color: khaki;
+    }
+
+.backColor-hover-darkKhaki {
+}
+
+    .backColor-hover-darkKhaki:hover {
+        background-color: darkkhaki;
+    }
+
+.backColor-hover-greenYellow {
+}
+
+    .backColor-hover-greenYellow:hover {
+        background-color: greenyellow;
+    }
+
+.backColor-hover-chartreuse {
+}
+
+    .backColor-hover-chartreuse:hover {
+        background-color: chartreuse;
+    }
+
+.backColor-hover-lawnGreen {
+}
+
+    .backColor-hover-lawnGreen:hover {
+        background-color: lawngreen;
+    }
+
+.backColor-hover-lime {
+}
+
+    .backColor-hover-lime:hover {
+        background-color: lime;
+    }
+
+.backColor-hover-limeGreen {
+}
+
+    .backColor-hover-limeGreen:hover {
+        background-color: limegreen;
+    }
+
+.backColor-hover-paleGreen {
+}
+
+    .backColor-hover-paleGreen:hover {
+        background-color: palegreen;
+    }
+
+.backColor-hover-mediumSpringGreen {
+}
+
+    .backColor-hover-mediumSpringGreen:hover {
+        background-color: mediumspringgreen;
+    }
+
+.backColor-hover-springGreen {
+}
+
+    .backColor-hover-springGreen:hover {
+        background-color: springgreen;
+    }
+
+.backColor-hover-mediumSeaGreen {
+}
+
+    .backColor-hover-mediumSeaGreen:hover {
+        background-color: mediumseagreen;
+    }
+
+.backColor-hover-seaGreen {
+}
+
+    .backColor-hover-seaGreen:hover {
+        background-color: seagreen;
+    }
+
+.backColor-hover-forestGreen {
+}
+
+    .backColor-hover-forestGreen:hover {
+        background-color: forestgreen;
+    }
+
+.backColor-hover-green {
+}
+
+    .backColor-hover-green:hover {
+        background-color: green;
+    }
+
+.backColor-hover-darkGreen {
+}
+
+    .backColor-hover-darkGreen:hover {
+        background-color: darkgreen;
+    }
+
+.backColor-hover-yellowGreen {
+}
+
+    .backColor-hover-yellowGreen:hover {
+        background-color: yellowgreen;
+    }
+
+.backColor-hover-oliveDrab {
+}
+
+    .backColor-hover-oliveDrab:hover {
+        background-color: olivedrab;
+    }
+
+.backColor-hover-darkOliveGreen {
+}
+
+    .backColor-hover-darkOliveGreen:hover {
+        background-color: darkolivegreen;
+    }
+
+.backColor-hover-mediumAquaMarine {
+}
+
+    .backColor-hover-mediumAquaMarine:hover {
+        background-color: mediumaquamarine;
+    }
+
+.backColor-hover-darkSeaGreen {
+}
+
+    .backColor-hover-darkSeaGreen:hover {
+        background-color: darkseagreen;
+    }
+
+.backColor-hover-lightSeaGreen {
+}
+
+    .backColor-hover-lightSeaGreen:hover {
+        background-color: lightseagreen;
+    }
+
+.backColor-hover-darkCyan {
+}
+
+    .backColor-hover-darkCyan:hover {
+        background-color: darkcyan;
+    }
+
+.backColor-hover-teal {
+}
+
+    .backColor-hover-teal:hover {
+        background-color: teal;
+    }
+
+.backColor-hover-aqua {
+}
+
+    .backColor-hover-aqua:hover {
+        background-color: aqua;
+    }
+
+.backColor-hover-cyan {
+}
+
+    .backColor-hover-cyan:hover {
+        background-color: cyan;
+    }
+
+.backColor-hover-lightCyan {
+}
+
+    .backColor-hover-lightCyan:hover {
+        background-color: lightCyan;
+    }
+
+.backColor-hover-paleTurquoise {
+}
+
+    .backColor-hover-paleTurquoise:hover {
+        background-color: paleturquoise;
+    }
+
+.backColor-hover-aquamarine {
+}
+
+    .backColor-hover-aquamarine:hover {
+        background-color: aquamarine;
+    }
+
+.backColor-hover-turquoise {
+}
+
+    .backColor-hover-turquoise:hover {
+        background-color: turquoise;
+    }
+
+.backColor-hover-mediumTurquoise {
+}
+
+    .backColor-hover-mediumTurquoise:hover {
+        background-color: mediumturquoise;
+    }
+
+.backColor-hover-cadetBlue {
+}
+
+    .backColor-hover-cadetBlue:hover {
+        background-color: cadetblue;
+    }
+
+.backColor-hover-steelBlue {
+}
+
+    .backColor-hover-steelBlue:hover {
+        background-color: steelblue;
+    }
+
+.backColor-hover-lightSteelBlue {
+}
+
+    .backColor-hover-lightSteelBlue:hover {
+        background-color: lightsteelblue;
+    }
+
+.backColor-hover-lightBlue {
+}
+
+    .backColor-hover-lightBlue:hover {
+        background-color: lightblue;
+    }
+
+.backColor-hover-powderBlue {
+}
+
+    .backColor-hover-powderBlue:hover {
+        background-color: powderblue;
+    }
+
+.backColor-hover-lightSkyBlue {
+}
+
+    .backColor-hover-lightSkyBlue:hover {
+        background-color: lightskyblue;
+    }
+
+.backColor-hover-skyBlue {
+}
+
+    .backColor-hover-skyBlue:hover {
+        background-color: skyblue;
+    }
+
+.backColor-hover-cornflowerBlue {
+}
+
+    .backColor-hover-cornflowerBlue:hover {
+        background-color: cornflowerblue;
+    }
+
+.backColor-hover-deepSkyBlue {
+}
+
+    .backColor-hover-deepSkyBlue:hover {
+        background-color: deepskyblue;
+    }
+
+.backColor-hover-dodgerBlue {
+}
+
+    .backColor-hover-dodgerBlue:hover {
+        background-color: dodgerblue;
+    }
+
+.backColor-hover-royalBlue {
+}
+
+    .backColor-hover-royalBlue:hover {
+        background-color: royalblue;
+    }
+
+.backColor-hover-blue {
+}
+
+    .backColor-hover-blue:hover {
+        background-color: blue;
+    }
+
+.backColor-hover-mediumBlue {
+}
+
+    .backColor-hover-mediumBlue:hover {
+        background-color: mediumblue;
+    }
+
+.backColor-hover-darkBlue {
+}
+
+    .backColor-hover-darkBlue:hover {
+        background-color: darkblue;
+    }
+
+.backColor-hover-navy {
+}
+
+    .backColor-hover-navy:hover {
+        background-color: navy;
+    }
+
+.backColor-hover-midnightBlue {
+}
+
+    .backColor-hover-midnightBlue:hover {
+        background-color: midnightblue;
+    }
+
+.backColor-hover-cornsilk {
+}
+
+    .backColor-hover-cornsilk:hover {
+        background-color: cornsilk;
+    }
+
+.backColor-hover-blanchedAlmond {
+}
+
+    .backColor-hover-blanchedAlmond:hover {
+        background-color: blanchedalmond;
+    }
+
+.backColor-hover-bisque {
+}
+
+    .backColor-hover-bisque:hover {
+        background-color: bisque;
+    }
+
+.backColor-hover-navajoWhite {
+}
+
+    .backColor-hover-navajoWhite:hover {
+        background-color: navajowhite;
+    }
+
+.backColor-hover-wheat {
+}
+
+    .backColor-hover-wheat:hover {
+        background-color: wheat;
+    }
+
+.backColor-hover-burlyWood {
+}
+
+    .backColor-hover-burlyWood:hover {
+        background-color: burlywood;
+    }
+
+.backColor-hover-tan {
+}
+
+    .backColor-hover-tan:hover {
+        background-color: tan;
+    }
+
+.backColor-hover-rosyBrown {
+}
+
+    .backColor-hover-rosyBrown:hover {
+        background-color: rosybrown;
+    }
+
+.backColor-hover-sandyBrown {
+}
+
+    .backColor-hover-sandyBrown:hover {
+        background-color: sandybrown;
+    }
+
+.backColor-hover-goldenRod {
+}
+
+    .backColor-hover-goldenRod:hover {
+        background-color: goldenrod;
+    }
+
+.backColor-hover-darkGoldenRod {
+}
+
+    .backColor-hover-darkGoldenRod:hover {
+        background-color: darkgoldenrod;
+    }
+
+.backColor-hover-peru {
+}
+
+    .backColor-hover-peru:hover {
+        background-color: peru;
+    }
+
+.backColor-hover-chocolate {
+}
+
+    .backColor-hover-chocolate:hover {
+        background-color: chocolate;
+    }
+
+.backColor-hover-olive {
+}
+
+    .backColor-hover-olive:hover {
+        background-color: olive;
+    }
+
+.backColor-hover-saddleBrown {
+}
+
+    .backColor-hover-saddleBrown:hover {
+        background-color: saddlebrown;
+    }
+
+.backColor-hover-sienna {
+}
+
+    .backColor-hover-sienna:hover {
+        background-color: sienna;
+    }
+
+.backColor-hover-brown {
+}
+
+    .backColor-hover-brown:hover {
+        background-color: brown;
+    }
+
+.backColor-hover-maroon {
+}
+
+    .backColor-hover-maroon:hover {
+        background-color: maroon;
+    }
+
+.backColor-hover-white {
+}
+
+    .backColor-hover-white:hover {
+        background-color: white;
+    }
+
+.backColor-hover-snow {
+}
+
+    .backColor-hover-snow:hover {
+        background-color: snow;
+    }
+
+.backColor-hover-honeyDew {
+}
+
+    .backColor-hover-honeyDew:hover {
+        background-color: honeydew;
+    }
+
+.backColor-hover-mintCream {
+}
+
+    .backColor-hover-mintCream:hover {
+        background-color: mintcream;
+    }
+
+.backColor-hover-azure {
+}
+
+    .backColor-hover-azure:hover {
+        background-color: azure;
+    }
+
+.backColor-hover-aliceBlue {
+}
+
+    .backColor-hover-aliceBlue:hover {
+        background-color: aliceblue;
+    }
+
+.backColor-hover-ghostWhite {
+}
+
+    .backColor-hover-ghostWhite:hover {
+        background-color: ghostwhite;
+    }
+
+.backColor-hover-whiteSmoke {
+}
+
+    .backColor-hover-whiteSmoke:hover {
+        background-color: whitesmoke;
+    }
+
+.backColor-hover-seaShell {
+}
+
+    .backColor-hover-seaShell:hover {
+        background-color: seashell;
+    }
+
+.backColor-hover-beige {
+}
+
+    .backColor-hover-beige:hover {
+        background-color: beige;
+    }
+
+.backColor-hover-oldLace {
+}
+
+    .backColor-hover-oldLace:hover {
+        background-color: oldlace;
+    }
+
+.backColor-hover-floralWhite {
+}
+
+    .backColor-hover-floralWhite:hover {
+        background-color: floralwhite;
+    }
+
+.backColor-hover-Ivory {
+}
+
+    .backColor-hover-Ivory:hover {
+        background-color: ivory;
+    }
+
+.backColor-hover-antiqueWhite {
+}
+
+    .backColor-hover-antiqueWhite:hover {
+        background-color: antiquewhite;
+    }
+
+.backColor-hover-linen {
+}
+
+    .backColor-hover-linen:hover {
+        background-color: linen;
+    }
+
+.backColor-hover-lavenderBlush {
+}
+
+    .backColor-hover-lavenderBlush:hover {
+        background-color: lavenderblush;
+    }
+
+.backColor-hover-mistyRose {
+}
+
+    .backColor-hover-mistyRose:hover {
+        background-color: mistyrose;
+    }
+
+.backColor-hover-gainsboro {
+}
+
+    .backColor-hover-gainsboro:hover {
+        background-color: gainsboro;
+    }
+
+.backColor-hover-lightGray {
+}
+
+    .backColor-hover-lightGray:hover {
+        background-color: lightgray;
+    }
+
+.backColor-hover-silver {
+}
+
+    .backColor-hover-silver:hover {
+        background-color: silver;
+    }
+
+.backColor-hover-darkGray {
+}
+
+    .backColor-hover-darkGray:hover {
+        background-color: darkgray;
+    }
+
+.backColor-hover-dimGray {
+}
+
+    .backColor-hover-dimGray:hover {
+        background-color: dimgray;
+    }
+
+.backColor-hover-gray {
+}
+
+    .backColor-hover-gray:hover {
+        background-color: gray;
+    }
+
+.backColor-hover-lightSlateGray {
+}
+
+    .backColor-hover-lightSlateGray:hover {
+        background-color: lightslategray;
+    }
+
+.backColor-hover-slateGray {
+}
+
+    .backColor-hover-slateGray:hover {
+        background-color: slategray;
+    }
+
+.backColor-hover-darkSlateGray {
+}
+
+    .backColor-hover-darkSlateGray:hover {
+        background-color: darkslategray;
+    }
+
+.backColor-hover-black {
+}
+
+    .backColor-hover-black:hover {
+        background-color: black;
+    }
+
+/* HOVER FONT COLORS */
+
+/* This part contains all font colors while hovered by the user cursor. */
+
+.fontColor-hover-pink {
+}
+
+    .fontColor-hover-pink:hover {
+        color: pink;
+    }
+
+.fontColor-hover-lightPink {
+}
+
+    .fontColor-hover-lightPink:hover {
+        color: lightpink;
+    }
+
+.fontColor-hover-hotPink {
+}
+
+    .fontColor-hover-hotPink:hover {
+        color: hotpink;
+    }
+
+.fontColor-hover-deepPink {
+}
+
+    .fontColor-hover-deepPink:hover {
+        color: deeppink;
+    }
+
+.fontColor-hover-paleVioletRed {
+}
+
+    .fontColor-hover-paleVioletRed:hover {
+        color: palevioletred;
+    }
+
+.fontColor-hover-mediumVioletRed {
+}
+
+    .fontColor-hover-mediumVioletRed:hover {
+        color: mediumvioletred;
+    }
+
+.fontColor-hover-lavender {
+}
+
+    .fontColor-hover-lavender:hover {
+        color: lavender;
+    }
+
+.fontColor-hover-thistle {
+}
+
+    .fontColor-hover-thistle:hover {
+        color: thistle;
+    }
+
+.fontColor-hover-plum {
+}
+
+    .fontColor-hover-plum:hover {
+        color: plum;
+    }
+
+.fontColor-hover-orchid {
+}
+
+    .fontColor-hover-orchid:hover {
+        color: orchid;
+    }
+
+.fontColor-hover-violet {
+}
+
+    .fontColor-hover-violet:hover {
+        color: violet;
+    }
+
+.fontColor-hover-fuchsia {
+}
+
+    .fontColor-hover-fuchsia:hover {
+        color: fuchsia;
+    }
+
+.fontColor-hover-magenta {
+}
+
+    .fontColor-hover-magenta:hover {
+        color: magenta;
+    }
+
+.fontColor-hover-mediumOrchid {
+}
+
+    .fontColor-hover-mediumOrchid:hover {
+        color: mediumorchid;
+    }
+
+.fontColor-hover-darkOrchid {
+}
+
+    .fontColor-hover-darkOrchid:hover {
+        color: darkorchid;
+    }
+
+.fontColor-hover-darkViolet {
+}
+
+    .fontColor-hover-darkViolet:hover {
+        color: darkviolet;
+    }
+
+.fontColor-hover-blueViolet {
+}
+
+    .fontColor-hover-blueViolet:hover {
+        color: blueviolet;
+    }
+
+.fontColor-hover-darkMagenta {
+}
+
+    .fontColor-hover-darkMagenta:hover {
+        color: darkmagenta;
+    }
+
+.fontColor-hover-purple {
+}
+
+    .fontColor-hover-purple:hover {
+        color: purple;
+    }
+
+.fontColor-hover-mediumPurple {
+}
+
+    .fontColor-hover-mediumPurple:hover {
+        color: mediumpurple;
+    }
+
+.fontColor-hover-mediumSlateBlue {
+}
+
+    .fontColor-hover-mediumSlateBlue:hover {
+        color: mediumslateblue;
+    }
+
+.fontColor-hover-slateBlue {
+}
+
+    .fontColor-hover-slateBlue:hover {
+        color: slateblue;
+    }
+
+.fontColor-hover-darkSlateBlue {
+}
+
+    .fontColor-hover-darkSlateBlue:hover {
+        color: darkslateblue;
+    }
+
+.fontColor-hover-rebeccaPurple {
+}
+
+    .fontColor-hover-rebeccaPurple:hover {
+        color: rebeccapurple;
+    }
+
+.fontColor-hover-indigo {
+}
+
+    .fontColor-hover-indigo:hover {
+        color: indigo;
+    }
+
+.fontColor-hover-lightSalmon {
+}
+
+    .fontColor-hover-lightSalmon:hover {
+        color: lightsalmon;
+    }
+
+.fontColor-hover-salmon {
+}
+
+    .fontColor-hover-salmon:hover {
+        color: salmon;
+    }
+
+.fontColor-hover-darkSalmon {
+}
+
+    .fontColor-hover-darkSalmon:hover {
+        color: darksalmon;
+    }
+
+.fontColor-hover-lightCoral {
+}
+
+    .fontColor-hover-lightCoral:hover {
+        color: lightcoral;
+    }
+
+.fontColor-hover-indianRed {
+}
+
+    .fontColor-hover-indianRed:hover {
+        color: indianred;
+    }
+
+.fontColor-hover-crimson {
+}
+
+    .fontColor-hover-crimson:hover {
+        color: crimson;
+    }
+
+.fontColor-hover-red {
+}
+
+    .fontColor-hover-red:hover {
+        color: red;
+    }
+
+.fontColor-hover-firebrick {
+}
+
+    .fontColor-hover-firebrick:hover {
+        color: firebrick;
+    }
+
+.fontColor-hover-darkRed {
+}
+
+    .fontColor-hover-darkRed:hover {
+        color: darkred;
+    }
+
+.fontColor-hover-orange {
+}
+
+    .fontColor-hover-orange:hover {
+        color: orange;
+    }
+
+.fontColor-hover-darkOrange {
+}
+
+    .fontColor-hover-darkOrange:hover {
+        color: darkorange;
+    }
+
+.fontColor-hover-coral {
+}
+
+    .fontColor-hover-coral:hover {
+        color: coral;
+    }
+
+.fontColor-hover-tomato {
+}
+
+    .fontColor-hover-tomato:hover {
+        color: tomato;
+    }
+
+.fontColor-hover-orangeRed {
+}
+
+    .fontColor-hover-orangeRed:hover {
+        color: orangered;
+    }
+
+.fontColor-hover-gold {
+}
+
+    .fontColor-hover-gold:hover {
+        color: gold;
+    }
+
+.fontColor-hover-yellow {
+}
+
+    .fontColor-hover-yellow:hover {
+        color: yellow;
+    }
+
+.fontColor-hover-lightYellow {
+}
+
+    .fontColor-hover-lightYellow:hover {
+        color: lightyellow;
+    }
+
+.fontColor-hover-lemonChiffon {
+}
+
+    .fontColor-hover-lemonChiffon:hover {
+        color: lemonchiffon;
+    }
+
+.fontColor-hover-lightGoldenRodYellow {
+}
+
+    .fontColor-hover-lightGoldenRodYellow:hover {
+        color: lightgoldenrodyellow;
+    }
+
+.fontColor-hover-papayaWhip {
+}
+
+    .fontColor-hover-papayaWhip:hover {
+        color: papayawhip;
+    }
+
+.fontColor-hover-moccasin {
+}
+
+    .fontColor-hover-moccasin:hover {
+        color: moccasin;
+    }
+
+.fontColor-hover-peachPuff {
+}
+
+    .fontColor-hover-peachPuff:hover {
+        color: peachpuff;
+    }
+
+.fontColor-hover-paleGoldenRod {
+}
+
+    .fontColor-hover-paleGoldenRod:hover {
+        color: palegoldenrod;
+    }
+
+.fontColor-hover-khaki {
+}
+
+    .fontColor-hover-khaki:hover {
+        color: khaki;
+    }
+
+.fontColor-hover-darkKhaki {
+}
+
+    .fontColor-hover-darkKhaki:hover {
+        color: darkkhaki;
+    }
+
+.fontColor-hover-greenYellow {
+}
+
+    .fontColor-hover-greenYellow:hover {
+        color: greenyellow;
+    }
+
+.fontColor-hover-chartreuse {
+}
+
+    .fontColor-hover-chartreuse:hover {
+        color: chartreuse;
+    }
+
+.fontColor-hover-lawnGreen {
+}
+
+    .fontColor-hover-lawnGreen:hover {
+        color: lawngreen;
+    }
+
+.fontColor-hover-lime {
+}
+
+    .fontColor-hover-lime:hover {
+        color: lime;
+    }
+
+.fontColor-hover-limeGreen {
+}
+
+    .fontColor-hover-limeGreen:hover {
+        color: limegreen;
+    }
+
+.fontColor-hover-paleGreen {
+}
+
+    .fontColor-hover-paleGreen:hover {
+        color: palegreen;
+    }
+
+.fontColor-hover-mediumSpringGreen {
+}
+
+    .fontColor-hover-mediumSpringGreen:hover {
+        color: mediumspringgreen;
+    }
+
+.fontColor-hover-springGreen {
+}
+
+    .fontColor-hover-springGreen:hover {
+        color: springgreen;
+    }
+
+.fontColor-hover-mediumSeaGreen {
+}
+
+    .fontColor-hover-mediumSeaGreen:hover {
+        color: mediumseagreen;
+    }
+
+.fontColor-hover-seaGreen {
+}
+
+    .fontColor-hover-seaGreen:hover {
+        color: seagreen;
+    }
+
+.fontColor-hover-forestGreen {
+}
+
+    .fontColor-hover-forestGreen:hover {
+        color: forestgreen;
+    }
+
+.fontColor-hover-green {
+}
+
+    .fontColor-hover-green:hover {
+        color: green;
+    }
+
+.fontColor-hover-darkGreen {
+}
+
+    .fontColor-hover-darkGreen:hover {
+        color: darkgreen;
+    }
+
+.fontColor-hover-yellowGreen {
+}
+
+    .fontColor-hover-yellowGreen:hover {
+        color: yellowgreen;
+    }
+
+.fontColor-hover-oliveDrab {
+}
+
+    .fontColor-hover-oliveDrab:hover {
+        color: olivedrab;
+    }
+
+.fontColor-hover-darkOliveGreen {
+}
+
+    .fontColor-hover-darkOliveGreen:hover {
+        color: darkolivegreen;
+    }
+
+.fontColor-hover-mediumAquaMarine {
+}
+
+    .fontColor-hover-mediumAquaMarine:hover {
+        color: mediumaquamarine;
+    }
+
+.fontColor-hover-darkSeaGreen {
+}
+
+    .fontColor-hover-darkSeaGreen:hover {
+        color: darkseagreen;
+    }
+
+.fontColor-hover-lightSeaGreen {
+}
+
+    .fontColor-hover-lightSeaGreen:hover {
+        color: lightseagreen;
+    }
+
+.fontColor-hover-darkCyan {
+}
+
+    .fontColor-hover-darkCyan:hover {
+        color: darkcyan;
+    }
+
+.fontColor-hover-teal {
+}
+
+    .fontColor-hover-teal:hover {
+        color: teal;
+    }
+
+.fontColor-hover-aqua {
+}
+
+    .fontColor-hover-aqua:hover {
+        color: aqua;
+    }
+
+.fontColor-hover-cyan {
+}
+
+    .fontColor-hover-cyan:hover {
+        color: cyan;
+    }
+
+.fontColor-hover-lightCyan {
+}
+
+    .fontColor-hover-lightCyan:hover {
+        color: lightCyan;
+    }
+
+.fontColor-hover-paleTurquoise {
+}
+
+    .fontColor-hover-paleTurquoise:hover {
+        color: paleturquoise;
+    }
+
+.fontColor-hover-aquamarine {
+}
+
+    .fontColor-hover-aquamarine:hover {
+        color: aquamarine;
+    }
+
+.fontColor-hover-turquoise {
+}
+
+    .fontColor-hover-turquoise:hover {
+        color: turquoise;
+    }
+
+.fontColor-hover-mediumTurquoise {
+}
+
+    .fontColor-hover-mediumTurquoise:hover {
+        color: mediumturquoise;
+    }
+
+.fontColor-hover-cadetBlue {
+}
+
+    .fontColor-hover-cadetBlue:hover {
+        color: cadetblue;
+    }
+
+.fontColor-hover-steelBlue {
+}
+
+    .fontColor-hover-steelBlue:hover {
+        color: steelblue;
+    }
+
+.fontColor-hover-lightSteelBlue {
+}
+
+    .fontColor-hover-lightSteelBlue:hover {
+        color: lightsteelblue;
+    }
+
+.fontColor-hover-lightBlue {
+}
+
+    .fontColor-hover-lightBlue:hover {
+        color: lightblue;
+    }
+
+.fontColor-hover-powderBlue {
+}
+
+    .fontColor-hover-powderBlue:hover {
+        color: powderblue;
+    }
+
+.fontColor-hover-lightSkyBlue {
+}
+
+    .fontColor-hover-lightSkyBlue:hover {
+        color: lightskyblue;
+    }
+
+.fontColor-hover-skyBlue {
+}
+
+    .fontColor-hover-skyBlue:hover {
+        color: skyblue;
+    }
+
+.fontColor-hover-cornflowerBlue {
+}
+
+    .fontColor-hover-cornflowerBlue:hover {
+        color: cornflowerblue;
+    }
+
+.fontColor-hover-deepSkyBlue {
+}
+
+    .fontColor-hover-deepSkyBlue:hover {
+        color: deepskyblue;
+    }
+
+.fontColor-hover-dodgerBlue {
+}
+
+    .fontColor-hover-dodgerBlue:hover {
+        color: dodgerblue;
+    }
+
+.fontColor-hover-royalBlue {
+}
+
+    .fontColor-hover-royalBlue:hover {
+        color: royalblue;
+    }
+
+.fontColor-hover-blue {
+}
+
+    .fontColor-hover-blue:hover {
+        color: blue;
+    }
+
+.fontColor-hover-mediumBlue {
+}
+
+    .fontColor-hover-mediumBlue:hover {
+        color: mediumblue;
+    }
+
+.fontColor-hover-darkBlue {
+}
+
+    .fontColor-hover-darkBlue:hover {
+        color: darkblue;
+    }
+
+.fontColor-hover-navy {
+}
+
+    .fontColor-hover-navy:hover {
+        color: navy;
+    }
+
+.fontColor-hover-midnightBlue {
+}
+
+    .fontColor-hover-midnightBlue:hover {
+        color: midnightblue;
+    }
+
+.fontColor-hover-cornsilk {
+}
+
+    .fontColor-hover-cornsilk:hover {
+        color: cornsilk;
+    }
+
+.fontColor-hover-blanchedAlmond {
+}
+
+    .fontColor-hover-blanchedAlmond:hover {
+        color: blanchedalmond;
+    }
+
+.fontColor-hover-bisque {
+}
+
+    .fontColor-hover-bisque:hover {
+        color: bisque;
+    }
+
+.fontColor-hover-navajoWhite {
+}
+
+    .fontColor-hover-navajoWhite:hover {
+        color: navajowhite;
+    }
+
+.fontColor-hover-wheat {
+}
+
+    .fontColor-hover-wheat:hover {
+        color: wheat;
+    }
+
+.fontColor-hover-burlyWood {
+}
+
+    .fontColor-hover-burlyWood:hover {
+        color: burlywood;
+    }
+
+.fontColor-hover-tan {
+}
+
+    .fontColor-hover-tan:hover {
+        color: tan;
+    }
+
+.fontColor-hover-rosyBrown {
+}
+
+    .fontColor-hover-rosyBrown:hover {
+        color: rosybrown;
+    }
+
+.fontColor-hover-sandyBrown {
+}
+
+    .fontColor-hover-sandyBrown:hover {
+        color: sandybrown;
+    }
+
+.fontColor-hover-goldenRod {
+}
+
+    .fontColor-hover-goldenRod:hover {
+        color: goldenrod;
+    }
+
+.fontColor-hover-darkGoldenRod {
+}
+
+    .fontColor-hover-darkGoldenRod:hover {
+        color: darkgoldenrod;
+    }
+
+.fontColor-hover-peru {
+}
+
+    .fontColor-hover-peru:hover {
+        color: peru;
+    }
+
+.fontColor-hover-chocolate {
+}
+
+    .fontColor-hover-chocolate:hover {
+        color: chocolate;
+    }
+
+.fontColor-hover-olive {
+}
+
+    .fontColor-hover-olive:hover {
+        color: olive;
+    }
+
+.fontColor-hover-saddleBrown {
+}
+
+    .fontColor-hover-saddleBrown:hover {
+        color: saddlebrown;
+    }
+
+.fontColor-hover-sienna {
+}
+
+    .fontColor-hover-sienna:hover {
+        color: sienna;
+    }
+
+.fontColor-hover-brown {
+}
+
+    .fontColor-hover-brown:hover {
+        color: brown;
+    }
+
+.fontColor-hover-maroon {
+}
+
+    .fontColor-hover-maroon:hover {
+        color: maroon;
+    }
+
+.fontColor-hover-white {
+}
+
+    .fontColor-hover-white:hover {
+        color: white;
+    }
+
+.fontColor-hover-snow {
+}
+
+    .fontColor-hover-snow:hover {
+        color: snow;
+    }
+
+.fontColor-hover-honeyDew {
+}
+
+    .fontColor-hover-honeyDew:hover {
+        color: honeydew;
+    }
+
+.fontColor-hover-mintCream {
+}
+
+    .fontColor-hover-mintCream:hover {
+        color: mintcream;
+    }
+
+.fontColor-hover-azure {
+}
+
+    .fontColor-hover-azure:hover {
+        color: azure;
+    }
+
+.fontColor-hover-aliceBlue {
+}
+
+    .fontColor-hover-aliceBlue:hover {
+        color: aliceblue;
+    }
+
+.fontColor-hover-ghostWhite {
+}
+
+    .fontColor-hover-ghostWhite:hover {
+        color: ghostwhite;
+    }
+
+.fontColor-hover-whiteSmoke {
+}
+
+    .fontColor-hover-whiteSmoke:hover {
+        color: whitesmoke;
+    }
+
+.fontColor-hover-seaShell {
+}
+
+    .fontColor-hover-seaShell:hover {
+        color: seashell;
+    }
+
+.fontColor-hover-beige {
+}
+
+    .fontColor-hover-beige:hover {
+        color: beige;
+    }
+
+.fontColor-hover-oldLace {
+}
+
+    .fontColor-hover-oldLace:hover {
+        color: oldlace;
+    }
+
+.fontColor-hover-floralWhite {
+}
+
+    .fontColor-hover-floralWhite:hover {
+        color: floralwhite;
+    }
+
+.fontColor-hover-Ivory {
+}
+
+    .fontColor-hover-Ivory:hover {
+        color: ivory;
+    }
+
+.fontColor-hover-antiqueWhite {
+}
+
+    .fontColor-hover-antiqueWhite:hover {
+        color: antiquewhite;
+    }
+
+.fontColor-hover-linen {
+}
+
+    .fontColor-hover-linen:hover {
+        color: linen;
+    }
+
+.fontColor-hover-lavenderBlush {
+}
+
+    .fontColor-hover-lavenderBlush:hover {
+        color: lavenderblush;
+    }
+
+.fontColor-hover-mistyRose {
+}
+
+    .fontColor-hover-mistyRose:hover {
+        color: mistyrose;
+    }
+
+.fontColor-hover-gainsboro {
+}
+
+    .fontColor-hover-gainsboro:hover {
+        color: gainsboro;
+    }
+
+.fontColor-hover-lightGray {
+}
+
+    .fontColor-hover-lightGray:hover {
+        color: lightgray;
+    }
+
+.fontColor-hover-silver {
+}
+
+    .fontColor-hover-silver:hover {
+        color: silver;
+    }
+
+.fontColor-hover-darkGray {
+}
+
+    .fontColor-hover-darkGray:hover {
+        color: darkgray;
+    }
+
+.fontColor-hover-dimGray {
+}
+
+    .fontColor-hover-dimGray:hover {
+        color: dimgray;
+    }
+
+.fontColor-hover-gray {
+}
+
+    .fontColor-hover-gray:hover {
+        color: gray;
+    }
+
+.fontColor-hover-lightSlateGray {
+}
+
+    .fontColor-hover-lightSlateGray:hover {
+        color: lightslategray;
+    }
+
+.fontColor-hover-slateGray {
+}
+
+    .fontColor-hover-slateGray:hover {
+        color: slategray;
+    }
+
+.fontColor-hover-darkSlateGray {
+}
+
+    .fontColor-hover-darkSlateGray:hover {
+        color: darkslategray;
+    }
+
+.fontColor-hover-black {
+}
+
+    .fontColor-hover-black:hover {
+        color: black;
+    }
+
+/* TEXT */
+
+.align-center{
+    text-align: center;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.align-justify{
+    text-align: justify;
+}
+
+/* Layout */
+
+/* ANIMATIONS */
+
+/* This part contains all animations tools. */
+
+@keyframes animation-left-to-right{
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.animate-left-to-right {
+    animation-duration: .5s;
+    animation-delay: 0s;
+    animation-name: animation-left-to-right;
+}
+
+.animate-hover-left-to-right-3 {
+    transform: translateX(0px);
+    transition: .3s;
+}
+
+    .animate-hover-left-to-right-3:hover {
+        transform: translateX(5px);
+        transition: .3s;
+    }
+
+.animate-hover-left-to-right-5 {
+    transform: translateX(0px);
+    transition: .5s;
+}
+
+    .animate-hover-left-to-right-5:hover {
+        transform: translateX(5px);
+        transition: .5s;
+    }
+
+
+
+@keyframes animation-right-to-left {
+    0%{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.animate-right-to-left {
+    animation-duration: .5s;
+    animation-delay: 0s;
+    animation-name: animation-right-to-left;
+}
+
+.animate-hover-right-to-left-3 {
+    transform: translateX(0px);
+    transition: .3s;
+}
+
+    .animate-hover-right-to-left-3:hover {
+        transform: translateX(-5px);
+        transition: .3s;
+    }
+
+.animate-hover-right-to-left-5 {
+    transform: translateX(0px);
+    transition: .5s;
+}
+
+    .animate-hover-right-to-left-5:hover {
+        transform: translateX(5px);
+        transition: .5s;
+    }
+
+@keyframes animate-bottom-to-top
+{
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.animate-bottom-to-top{
+    animation-duration: .5s;
+    animation-delay: 0s;
+    animation-name: animate-bottom-to-top;
+}
+
+.animate-hover-bottom-to-top-3 {
+    transform: translateY(0px);
+    transition: .3s;
+}
+
+    .animate-hover-bottom-to-top-3:hover {
+        transform: translateY(-5px);
+        transition: .3s;
+    }
+
+.animate-hover-bottom-to-top-5 {
+    transform: translateY(0px);
+    transition: .5s;
+}
+
+    .animate-hover-bottom-to-top-5:hover {
+        transform: translateY(-5px);
+        transition: .5s;
+    }
+
+@keyframes animate-top-to-bottom
+{
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.animate-top-to-bottom {
+    animation-duration: .5s;
+    animation-delay: 0s;
+    animation-name: animate-top-to-bottom;
+}
+
+.animate-hover-top-to-botom-3 {
+    transform: translateY(0px);
+    transition: .3s;
+}
+
+    .animate-hover-top-to-bottom-3:hover {
+        transform: translateY(5px);
+        transition: .3s;
+    }
+
+.animate-hover-top-to-bottom-5 {
+    transform: translateY(0px);
+    transition: .5s;
+}
+
+    .animate-hover-top-to-bottom-5:hover {
+        transform: translateY(5px);
+        transition: .5s;
+    }
+
+/* EFFECTS */
+
+/* This part contains all the effects tools for the css file. */
+
+.opacity-1{
+    opacity: 0.9;
+}
+
+.opacity-2 {
+    opacity: 0.8;
+}
+
+.opacity-3 {
+    opacity: 0.7;
+}
+
+.opacity-4 {
+    opacity: 0.6;
+}
+
+.opacity-5 {
+    opacity: 0.5;
+}
+
+.sepia-1{
+    filter: sepia(10%);
+}
+
+.sepia-2 {
+    filter: sepia(30%);
+}
+
+.sepia-3 {
+    filter: sepia(50%);
+}
+
+.sepia-4 {
+    filter: sepia(70%);
+}
+
+.sepia-5 {
+    filter: sepia(90%);
+}
+
+.grayscale-1 {
+    filter: grayscale(10%);
+}
+
+.grayscale-2 {
+    filter: grayscale(30%);
+}
+
+.grayscale-3 {
+    filter: grayscale(50%);
+}
+
+.grayscale-4 {
+    filter: grayscale(70%);
+}
+
+.grayscale-5 {
+    filter: grayscale(90%);
+}
+
+.blur-1{
+    filter: blur(10px);
+}
+
+.blur-2 {
+    filter: blur(30px);
+}
+
+.blur-3 {
+    filter: blur(50px);
+}
+
+.blur-4 {
+    filter: blur(70px);
+}
+
+.blur-5 {
+    filter: blur(90px);
+}
+
+/* BARS */
+
+/* This part contains all bars elements tools. */
+
+.bar{
+    width: 100%;
+}
+
+    .bar .bar-element-block-1 {
+        padding: 4px;
+        display: block;
+    }
+
+    .bar .bar-element-block-2 {
+        padding: 8px;
+        display: block;
+    }
+
+    .bar .bar-element-block-3 {
+        padding: 16px;
+        display: block;
+    }
+
+    .bar .bar-element-block-4 {
+        padding: 32px;
+        display: block;
+    }
+
+    .bar .bar-element-block-5 {
+        padding: 64px;
+        display: block;
+    }
+
+    .bar .bar-element-inline-1 {
+        padding: 4px;
+        display: inline-block;
+    }
+
+    .bar .bar-element-inline-2 {
+        padding: 8px;
+        display: inline-block;
+    }
+
+    .bar .bar-element-inline-3 {
+        padding: 16px;
+        display: inline-block;
+    }
+
+    .bar .bar-element-inline-4 {
+        padding: 32px;
+        display: inline-block;
+    }
+
+    .bar .bar-element-inline-5 {
+        padding: 64px;
+        display: inline-block;
+    }
+
+/* TOOLTIP */
+
+/* This part contains the tooltip container elements. */
+
+.tooltip-container {
+    position: relative;
+}
+
+    .tooltip-container.display-fixed-top-left {
+        position: fixed;
+    }
+
+    .tooltip-container.display-fixed-top-right {
+        position: fixed;
+    }
+
+    .tooltip-container.display-fixed-top-center {
+        position: fixed;
+    }
+
+    .tooltip-container.display-fixed-middle-left {
+        position: fixed;
+    }
+
+    .tooltip-container.display-fixed-middle-right {
+        position: fixed;
+    }
+
+    .tooltip-container.display-fixed-middle-center {
+        position: fixed;
+    }
+
+    .tooltip-container.display-fixed-bottom-left {
+        position: fixed;
+    }
+
+    .tooltip-container.display-fixed-bottom-right {
+        position: fixed;
+    }
+
+    .tooltip-container.display-fixed-bottom-center {
+        position: fixed;
+    }
+
+    .tooltip-container .tooltip-bottom {
+        display: none;
+        position: absolute;
+    }
+
+    .tooltip-container:hover .tooltip-bottom {
+        display: block;
+        width: 150px;
+    }
+
+    .tooltip-container .tooltip-right {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .tooltip-container:hover .tooltip-right {
+        display: block;
+        width: 150px;
+    }
+
+    .tooltip-container .tooltip-top {
+        display: none;
+        position: absolute;
+        left: 0;
+        bottom: 50%;
+    }
+
+    .tooltip-container:hover .tooltip-top {
+        display: block;
+        width: 150px;
+    }
+
+    .tooltip-container .tooltip-left {
+        display: none;
+        position: absolute;
+        right: 100%;
+        top: 0;
+    }
+
+    .tooltip-container:hover .tooltip-left {
+        display: block;
+        width: 150px;
+    }
+
+/* DISPLAY */
+
+/* This par contains the display tool elements. */
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.none{
+    display: none;
+}
+
+@media only screen and (max-width: 768px){
+    .m-block{
+        display: block;
+    }
+    
+    .m-inline{
+        display: inline;
+    }
+
+    .m-inline-block{
+        display: inline-block;
+    }
+    .m-none{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .s-block {
+        display: block;
+    }
+
+    .s-inline {
+        display: inline;
+    }
+
+    .s-inline-block {
+        display: inline-block;
+    }
+    .s-none{
+        display: none;
+    }
+}
+
+/* LINE-HEIGHT */
+
+/* This part contains the line height tool elements. */
+
+/* vertically center links */
+
+.line-height-1 {
+    line-height: 4px;
+}
+
+.line-height-2 {
+    line-height: 8px;
+}
+
+.line-height-3 {
+    line-height: 16px;
+}
+
+.line-height-4 {
+    line-height: 32px;
+}
+
+.line-height-5 {
+    line-height: 64px;
+}
+
+/* vertically center divs */
+
+.vertical-align{
+    align-items:center;
+    justify-content: center;
+}
+
+/* RESPONSIVE */
+
+/* This part contains the responsive tools and elements. */
+
+.responsive {
+    display: flex;
+    flex-direction: row;
+}
+
+    .responsive .b1-12 {
+        width: 8.33333%;
+    }
+
+    .responsive .b2-12 {
+        width: 16.66667%;
+    }
+
+    .responsive .b3-12 {
+        width: 25%;
+    }
+
+    .responsive .b4-12 {
+        width: 33.33333%;
+    }
+
+    .responsive .b5-12 {
+        width: 41.66667%;
+    }
+
+    .responsive .b6-12 {
+        width: 50%;
+    }
+
+    .responsive .b7-12 {
+        width: 58.33333%;
+    }
+
+    .responsive .b8-12 {
+        width: 66.66666%;
+    }
+
+    .responsive .b9-12 {
+        width: 75%;
+    }
+
+    .responsive .b10-12 {
+        width: 83.33333%;
+    }
+
+    .responsive .b11-12 {
+        width: 91.66667%;
+    }
+
+    .responsive .b12-12 {
+        width: 100%;
+    }
+
+    .responsive .b1-5 {
+        width: 20%;
+    }
+
+    .responsive .b2-5 {
+        width: 40%;
+    }
+
+    .responsive .b3-5 {
+        width: 60%;
+    }
+
+    .responsive .b4-5 {
+        width: 80%;
+    }
+
+    .responsive .b5-5 {
+        width: 100%;
+    }
+
+    .responsive .b1-10 {
+        width: 10%;
+    }
+
+    .responsive .b2-10 {
+        width: 20%;
+    }
+
+    .responsive .b3-10 {
+        width: 30%;
+    }
+
+    .responsive .b4-10 {
+        width: 40%;
+    }
+
+    .responsive .b5-10 {
+        width: 50%;
+    }
+
+    .responsive .b6-10 {
+        width: 60%;
+    }
+
+    .responsive .b7-10 {
+        width: 70%;
+    }
+
+    .responsive .b8-10 {
+        width: 80%;
+    }
+
+    .responsive .b9-10 {
+        width: 90%;
+    }
+
+    .responsive .b10-10 {
+        width: 100%;
+    }
+
+.m1-12 {
+}
+
+.m2-12 {
+}
+
+.m3-12 {
+}
+
+.m4-12 {
+}
+
+.m5-12 {
+}
+
+.m6-12 {
+}
+
+.m7-12 {
+}
+
+.m8-12 {
+}
+
+.m9-12 {
+}
+
+.m10-12 {
+}
+
+.m11-12 {
+}
+
+.m12-12 {
+}
+
+.s1-12 {
+}
+
+.s2-12 {
+}
+
+.s3-12 {
+}
+
+.s4-12 {
+}
+
+.s5-12 {
+}
+
+.s6-12 {
+}
+
+.s7-12 {
+}
+
+.s8-12 {
+}
+
+.s9-12 {
+}
+
+.s10-12 {
+}
+
+.s11-12 {
+}
+
+.s12-12 {
+}
+
+@media only screen and (max-width: 768px) {
+    .responsive {
+        flex-direction: column;
+    }
+
+        .responsive .m1-12 {
+            width: 8.33333%;
+        }
+
+        .responsive .m2-12 {
+            width: 16.66667%;
+        }
+
+        .responsive .m3-12 {
+            width: 25%;
+        }
+
+        .responsive .m4-12 {
+            width: 33.33333%;
+        }
+
+        .responsive .m5-12 {
+            width: 41.66667%;
+        }
+
+        .responsive .m6-12 {
+            width: 50%;
+        }
+
+        .responsive .m7-12 {
+            width: 58.33333%;
+        }
+
+        .responsive .m8-12 {
+            width: 66.66666%;
+        }
+
+        .responsive .m9-12 {
+            width: 75%;
+        }
+
+        .responsive .m10-12 {
+            width: 83.33333%;
+        }
+
+        .responsive .m11-12 {
+            width: 91.66667%;
+        }
+
+        .responsive .m12-12 {
+            width: 100%;
+        }
+
+        .responsive .m1-5 {
+            width: 20%;
+        }
+
+        .responsive .m2-5 {
+            width: 40%;
+        }
+
+        .responsive .m3-5 {
+            width: 60%;
+        }
+
+        .responsive .m4-5 {
+            width: 80%;
+        }
+
+        .responsive .m5-5 {
+            width: 100%;
+        }
+
+        .responsive .m1-10 {
+            width: 10%;
+        }
+
+        .responsive .m2-10 {
+            width: 20%;
+        }
+
+        .responsive .m3-10 {
+            width: 30%;
+        }
+
+        .responsive .m4-10 {
+            width: 40%;
+        }
+
+        .responsive .m5-10 {
+            width: 50%;
+        }
+
+        .responsive .m6-10 {
+            width: 60%;
+        }
+
+        .responsive .m7-10 {
+            width: 70%;
+        }
+
+        .responsive .m8-10 {
+            width: 80%;
+        }
+
+        .responsive .m9-10 {
+            width: 90%;
+        }
+
+        .responsive .m10-10 {
+            width: 100%;
+        }
+}
+
+@media only screen and (max-width: 600px) {
+    .responsive {
+        flex-direction: column;
+    }
+
+        .responsive .s1-12 {
+            width: 8.33333%;
+        }
+
+        .responsive .s2-12 {
+            width: 16.66667%;
+        }
+
+        .responsive .s3-12 {
+            width: 25%;
+        }
+
+        .responsive .s4-12 {
+            width: 33.33333%;
+        }
+
+        .responsive .s5-12 {
+            width: 41.66667%;
+        }
+
+        .responsive .s6-12 {
+            width: 50%;
+        }
+
+        .responsive .s7-12 {
+            width: 58.33333%;
+        }
+
+        .responsive .s8-12 {
+            width: 66.66666%;
+        }
+
+        .responsive .s9-12 {
+            width: 75%;
+        }
+
+        .responsive .s10-12 {
+            width: 83.33333%;
+        }
+
+        .responsive .s11-12 {
+            width: 91.66667%;
+        }
+
+        .responsive .s12-12 {
+            width: 100%;
+        }
+
+        .responsive .s1-5 {
+            width: 20%;
+        }
+
+        .responsive .s2-5 {
+            width: 40%;
+        }
+
+        .responsive .s3-5 {
+            width: 60%;
+        }
+
+        .responsive .s4-5 {
+            width: 80%;
+        }
+
+        .responsive .s5-5 {
+            width: 100%;
+        }
+
+        .responsive .s1-10 {
+            width: 10%;
+        }
+
+        .responsive .s2-10 {
+            width: 20%;
+        }
+
+        .responsive .s3-10 {
+            width: 30%;
+        }
+
+        .responsive .s4-10 {
+            width: 40%;
+        }
+
+        .responsive .s5-10 {
+            width: 50%;
+        }
+
+        .responsive .s6-10 {
+            width: 60%;
+        }
+
+        .responsive .s7-10 {
+            width: 70%;
+        }
+
+        .responsive .s8-10 {
+            width: 80%;
+        }
+
+        .responsive .s9-10 {
+            width: 90%;
+        }
+
+        .responsive .s10-10 {
+            width: 100%;
+        }
+}
+
+/* MISCELLANEOUS */
+
+/* This part contains the miscellaneous tool parts */
+
+[yu-container^='gallery']{
+    overflow: auto;
+}
+
+/* DROPDOWNS */
+
+/* Dropdown hover content elements */
+
+.dropdown-hover-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+}
+
+.dropdown-hover-content-4 {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    padding: 4px;
+}
+
+.dropdown-hover-content-8 {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    padding: 8px;
+}
+
+.dropdown-hover-content-12 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    padding: 12px;
+}
+
+.dropdown-hover-content-16 {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    padding: 16px;
+}
+
+.dropdown-hover-content-20 {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    padding: 20px;
+}
+
+.dropdown-hover-content-24 {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    padding: 24px;
+    width: 100%;
+}
+
+.dropdown-hover-content-28 {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    padding: 28px;
+}
+
+.dropdown-hover-content-32 {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    padding: 32px;
+}
+
+.dropdown-hover-content-36 {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    padding: 36px;
+}
+
+.dropdown-hover-content-40 {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    padding: 40px;
+}
+
+[yu-container^='dropdown-hover-container'] {
+    position: relative;
+    display: inline-block;
+}
+
+    [yu-container^='dropdown-hover-container']:hover  .dropdown-hover-content {
+        display: block;
+    }
+
+    [yu-container^='dropdown-hover-container']:hover .dropdown-hover-content-4 {
+        display: block;
+    }
+
+    [yu-container^='dropdown-hover-container']:hover .dropdown-hover-content-8 {
+        display: block;
+    }
+
+    [yu-container^='dropdown-hover-container']:hover .dropdown-hover-content-12 {
+        display: block;
+    }
+
+    [yu-container^='dropdown-hover-container']:hover .dropdown-hover-content-16 {
+        display: block;
+    }
+
+    [yu-container^='dropdown-hover-container']:hover .dropdown-hover-content-20 {
+        display: block;
+    }
+
+    [yu-container^='dropdown-hover-container']:hover .dropdown-hover-content-24 {
+        display: block;
+    }
+
+    [yu-container^='dropdown-hover-container']:hover .dropdown-hover-content-28 {
+        display: block;
+    }
+
+    [yu-container^='dropdown-hover-container']:hover .dropdown-hover-content-32 {
+        display: block;
+    }
+
+    [yu-container^='dropdown-hover-container']:hover .dropdown-hover-content-36 {
+        display: block;
+    }
+
+    [yu-container^='dropdown-hover-container']:hover .dropdown-hover-content-40 {
+        display: block;
+    }
+
+/* Dropdown click content elements */
+
+.dropdown-click-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+}
+
+.dropdown-click-content-4 {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    padding: 4px;
+}
+
+.dropdown-click-content-8 {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    padding: 8px;
+}
+
+.dropdown-click-content-12 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    padding: 12px;
+}
+
+.dropdown-click-content-16 {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    padding: 16px;
+}
+
+.dropdown-click-content-20 {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    padding: 20px;
+}
+
+.dropdown-click-content-24 {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    padding: 24px;
+    width: 100%;
+}
+
+.dropdown-click-content-28 {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    padding: 28px;
+}
+
+.dropdown-click-content-32 {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    padding: 32px;
+}
+
+.dropdown-click-content-36 {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    padding: 36px;
+}
+
+.dropdown-click-content-40 {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    padding: 40px;
+}
+
+[yu-container^='dropdown-click-container'] {
+    position: relative;
+    display: inline-block;
+}
