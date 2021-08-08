@@ -8417,59 +8417,13 @@
 
 /* This part contains all bars elements tools. */
 
-.bar{
+/* Sticky bar */
+
+.bar-sticky{
+    position: fixed;
+    top: 0;
     width: 100%;
 }
-
-    .bar .bar-element-block-1 {
-        padding: 4px;
-        display: block;
-    }
-
-    .bar .bar-element-block-2 {
-        padding: 8px;
-        display: block;
-    }
-
-    .bar .bar-element-block-3 {
-        padding: 16px;
-        display: block;
-    }
-
-    .bar .bar-element-block-4 {
-        padding: 32px;
-        display: block;
-    }
-
-    .bar .bar-element-block-5 {
-        padding: 64px;
-        display: block;
-    }
-
-    .bar .bar-element-inline-1 {
-        padding: 4px;
-        display: inline-block;
-    }
-
-    .bar .bar-element-inline-2 {
-        padding: 8px;
-        display: inline-block;
-    }
-
-    .bar .bar-element-inline-3 {
-        padding: 16px;
-        display: inline-block;
-    }
-
-    .bar .bar-element-inline-4 {
-        padding: 32px;
-        display: inline-block;
-    }
-
-    .bar .bar-element-inline-5 {
-        padding: 64px;
-        display: inline-block;
-    }
 
 /* TOOLTIP */
 
@@ -8477,88 +8431,135 @@
 
 .tooltip-container {
     position: relative;
+    display: inline-block;
 }
 
-    .tooltip-container.display-fixed-top-left {
-        position: fixed;
-    }
-
-    .tooltip-container.display-fixed-top-right {
-        position: fixed;
-    }
-
-    .tooltip-container.display-fixed-top-center {
-        position: fixed;
-    }
-
-    .tooltip-container.display-fixed-middle-left {
-        position: fixed;
-    }
-
-    .tooltip-container.display-fixed-middle-right {
-        position: fixed;
-    }
-
-    .tooltip-container.display-fixed-middle-center {
-        position: fixed;
-    }
-
-    .tooltip-container.display-fixed-bottom-left {
-        position: fixed;
-    }
-
-    .tooltip-container.display-fixed-bottom-right {
-        position: fixed;
-    }
-
-    .tooltip-container.display-fixed-bottom-center {
-        position: fixed;
-    }
-
-    .tooltip-container .tooltip-bottom {
-        display: none;
-        position: absolute;
-    }
-
-    .tooltip-container:hover .tooltip-bottom {
-        display: block;
-        width: 150px;
-    }
-
-    .tooltip-container .tooltip-right {
-        display: none;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-    .tooltip-container:hover .tooltip-right {
-        display: block;
-        width: 150px;
-    }
+    /* Tooltip top */
 
     .tooltip-container .tooltip-top {
-        display: none;
+        visibility: hidden;
+        width: 150px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 8px;
+        padding: 8px;
         position: absolute;
-        left: 0;
-        bottom: 50%;
+        z-index: 1;
+        bottom: 100%;
+        left: calc(50% - 75px);
     }
+
+        .tooltip-container .tooltip-top::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: black transparent transparent transparent;
+        }
 
     .tooltip-container:hover .tooltip-top {
-        display: block;
-        width: 150px;
+        visibility: visible;
+        opacity: 1;
     }
+
+    /* Tooltip bottom */
+
+    .tooltip-container .tooltip-bottom {
+        visibility: hidden;
+        width: 150px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 8px;
+        padding: 8px;
+        position: absolute;
+        z-index: 1;
+        top: 100%;
+        left: calc(50% - 75px);
+    }
+
+        .tooltip-container .tooltip-bottom::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: calc(50% - 5px);
+            margin-top: -10px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent transparent black transparent;
+        }
+
+    .tooltip-container:hover .tooltip-bottom {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    /* Tooltip left */
 
     .tooltip-container .tooltip-left {
-        display: none;
+        visibility: hidden;
+        width: 150px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 8px;
+        padding: 8px;
         position: absolute;
-        right: 100%;
-        top: 0;
+        z-index: 1;
+        right: 105%;
+        bottom: -50%;
     }
 
+        .tooltip-container .tooltip-left::after {
+            content: "";
+            position: absolute;
+            left: 100%;
+            top: 50%;
+            margin-top: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent transparent transparent black;
+        }
+
     .tooltip-container:hover .tooltip-left {
-        display: block;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    /* Tooltip right */
+
+    .tooltip-container .tooltip-right {
+        visibility: hidden;
         width: 150px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 8px;
+        padding: 8px;
+        position: absolute;
+        z-index: 1;
+        left: 105%;
+        bottom: -50%;
+    }
+
+        .tooltip-container .tooltip-right::after {
+            content: "";
+            position: absolute;
+            right: 100%;
+            top: 50%;
+            margin-top: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent black transparent transparent;
+        }
+
+    .tooltip-container:hover .tooltip-right {
+        visibility: visible;
+        opacity: 1;
     }
 
 /* DISPLAY */
@@ -9327,4 +9328,398 @@
 [yu-container^='dropdown-click-container'] {
     position: relative;
     display: inline-block;
+}
+
+/* TABS */
+
+/* This part contains tabs elements */
+
+.tab-content{
+    display: none;
+}
+
+/* SIDEBAR */
+
+/* This part contains the sidebar tools elements... */
+
+/* Sidebar normal menu system */
+
+.sidebar-container .sidebar-menu-20 {
+    position: fixed;
+    display: block;
+    width: 20%;
+}
+
+.sidebar-container .sidebar-menu-25 {
+    position: fixed;
+    display: block;
+    width: 25%;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .sidebar-container .sidebar-menu-20 {
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+
+    .sidebar-container .sidebar-menu-25 {
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .sidebar-container .sidebar-menu-20 {
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+
+    .sidebar-container .sidebar-menu-25 {
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Sidebar full height menu */
+
+.sidebar-container .sidebar-full-20 {
+    position: fixed;
+    display: block;
+    width: 20%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sidebar-container .sidebar-full-25 {
+    position: fixed;
+    display: block;
+    width: 25%;
+    height: 100%;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .sidebar-container .sidebar-full-20 {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: auto;
+        overflow: auto;
+    }
+
+    .sidebar-container .sidebar-full-25 {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: auto;
+        overflow: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .sidebar-container .sidebar-full-20 {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: auto;
+        overflow: auto;
+    }
+
+    .sidebar-container .sidebar-full-25 {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: auto;
+        overflow: auto;
+    }
+}
+
+.sidebar-container .sidebar-full-animate-20 {
+    position: fixed;
+    display: block;
+    width: 20%;
+    height: 100%;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.sidebar-container .sidebar-full-animate-25 {
+    position: fixed;
+    display: block;
+    width: 25%;
+    height: 100%;
+    overflow: hidden;
+    transition: .5s;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .sidebar-container .sidebar-full-animate-20 {
+        width: 50%;
+    }
+
+    .sidebar-container .sidebar-full-animate-25 {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .sidebar-container .sidebar-full-animate-20 {
+        width: 50%;
+    }
+
+    .sidebar-container .sidebar-full-animate-25 {
+        width: 50%;
+    }
+}
+
+/* this part is for overlay sidebar animations */
+
+.sidebar-container .sidebar-full-overlay-20 {
+    position: fixed;
+    left: -100%;
+    display: block;
+    width: 20%;
+}
+
+.sidebar-container .sidebar-full-overlay-25 {
+    position: fixed;
+    left: -100%;
+    display: block;
+    width: 25%;
+}
+
+.sidebar-container .sidebar-full-overlay-animated-20 {
+    position: fixed;
+    left: -100%;
+    display: block;
+    transition: .5s;
+    width: 20%;
+}
+
+.sidebar-container .sidebar-full-overlay-animated-25 {
+    position: fixed;
+    left: -100%;
+    display: block;
+    transition: .5s;
+    width: 25%;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .sidebar-container .sidebar-full-overlay-20 {
+        width: 100%;
+    }
+
+    .sidebar-container .sidebar-full-overlay-25 {
+        width: 100%;
+    }
+
+    .sidebar-container .sidebar-full-overlay-animated-20 {
+        width: 100%;
+    }
+
+    .sidebar-container .sidebar-full-overlay-animated-25 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .sidebar-container .sidebar-full-overlay-20 {
+        width: 100%;
+    }
+
+    .sidebar-container .sidebar-full-overlay-25 {
+        width: 100%;
+    }
+
+    .sidebar-container .sidebar-full-overlay-animated-20 {
+        width: 100%;
+    }
+
+    .sidebar-container .sidebar-full-overlay-animated-25 {
+        width: 100%;
+    }
+}
+
+.sidebar-container .sidebar-content-80 {
+    position: fixed;
+    display: block;
+    width: 80%;
+    left: 20%;
+}
+
+.sidebar-container .sidebar-content-75 {
+    position: fixed;
+    display: block;
+    width: 75%;
+    left: 25%;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .sidebar-container .sidebar-content-80 {
+        position: relative;
+        width: 100%;
+        display: block;
+        left: 0;
+    }
+
+    .sidebar-container .sidebar-content-75 {
+        position: relative;
+        width: 100%;
+        display: block;
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .sidebar-container .sidebar-content-80 {
+        position: relative;
+        width: 100%;
+        display: block;
+        left: 0;
+    }
+
+    .sidebar-container .sidebar-content-75 {
+        position: relative;
+        width: 100%;
+        display: block;
+        left: 0;
+    }
+}
+
+.sidebar-container .sidebar-full-content-80 {
+    position: fixed;
+    display: block;
+    width: 80%;
+    left: 20%;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar-container .sidebar-full-content-75 {
+    position: fixed;
+    display: block;
+    width: 75%;
+    left: 25%;
+    height: 100%;
+    overflow: auto;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .sidebar-container .sidebar-full-content-80 {
+        position: relative;
+        display: initial;
+        width: 100%;
+        left: 0;
+        height: auto;
+        overflow: auto;
+    }
+
+    .sidebar-container .sidebar-full-content-75 {
+        position: relative;
+        display: initial;
+        width: 100%;
+        left: 0;
+        height: auto;
+        overflow: auto;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .sidebar-container .sidebar-full-content-80 {
+        position: relative;
+        display: initial;
+        width: 100%;
+        left: 0;
+        height: auto;
+        overflow: auto;
+    }
+
+    .sidebar-container .sidebar-full-content-75 {
+        position: relative;
+        display: initial;
+        width: 100%;
+        left: 0;
+        height: auto;
+        overflow: auto;
+    }
+}
+
+.sidebar-container .sidebar-full-content-animate-80 {
+    position: fixed;
+    display: block;
+    width: 80%;
+    left: 20%;
+    height: 100%;
+    overflow: auto;
+    transition: .5s;
+}
+
+.sidebar-container .sidebar-full-content-animate-75 {
+    position: fixed;
+    display: block;
+    width: 75%;
+    height: 100%;
+    overflow: auto;
+    left: 25%;
+    transition: .5s;
+}
+
+.sidebar-container .sidebar-full-content-animate-80 {
+    position: fixed;
+    display: block;
+    width: 100%;
+    left: 20%;
+    height: 100%;
+    overflow: auto;
+    transition: .5s;
+}
+
+.sidebar-container .sidebar-full-content-animate-75 {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    left: 25%;
+    transition: .5s;
+}
+
+@media only screen and (max-width: 768px) {
+    .sidebar-container .sidebar-full-content-animate-80 {
+        left: 50%;
+        width: 100%;
+    }
+
+    .sidebar-container .sidebar-full-content-animate-75 {
+        left: 50%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sidebar-container .sidebar-full-content-animate-80 {
+        left: 50%;
+        width: 100%;
+    }
+
+    .sidebar-container .sidebar-full-content-animate-75 {
+        left: 50%;
+        width: 100%;
+    }
 }
