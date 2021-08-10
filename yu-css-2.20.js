@@ -1,7 +1,6 @@
 var yu = {};
 
-yu.dropdownClickContent = function (theInt)
-{
+yu.dropdownClickContent = function (theInt) {
     var theQuery = document.querySelectorAll("[yu-container='dropdown-click-container']");
 
     theQuery.item(theInt).onclick = function () {
@@ -48,8 +47,7 @@ yu.bars = {};
 
 yu.tab.tabContainers = function () {
 
-    var allAreButton = function ()
-    {
+    var allAreButton = function () {
         for (var i = 0; i < elements.length; i++) {
             if (typeof (document.getElementById(elements[i]).children) == HTMLButtonElement) {
                 continue;
@@ -62,10 +60,8 @@ yu.tab.tabContainers = function () {
     }
 
     if (allAreButton) {
-        for (var q = 0; q < document.querySelectorAll("[yu-container='tab-contents']").length; q++)
-        {
-            for (var s = 0; s < document.querySelectorAll("[yu-container='tab-contents']").item(q).children.length; s++)
-            {
+        for (var q = 0; q < document.querySelectorAll("[yu-container='tab-contents']").length; q++) {
+            for (var s = 0; s < document.querySelectorAll("[yu-container='tab-contents']").item(q).children.length; s++) {
                 document.querySelectorAll("[yu-container='tab-contents']").item(q).children.item(s).setAttribute("id", "tab-" + (s + document.querySelectorAll("[yu-container='tab-contents']").item(q).children.length * q));
             }
         }
@@ -73,21 +69,19 @@ yu.tab.tabContainers = function () {
     else {
         alert("Error on tab functionnality.");
     }
-    
+
 
 
 }
 
-yu.bars.sidebarContainers = function ()
-{
+yu.bars.sidebarContainers = function () {
 
     var d = document;
 
     var sidebar_menu = d.querySelectorAll("[yu-container='sidebar-menu']");
     var sidebar_content = d.querySelectorAll("[yu-container='sidebar-content']");
 
-    if (d.querySelectorAll("[yu-content='sidebar-push-open-20']").length != 0)
-    {
+    if (d.querySelectorAll("[yu-content='sidebar-push-open-20']").length != 0) {
         window.matchMedia("(max-width: 768px)").addListener(function () {
             if (window.matchMedia("(max-width: 768px)").matches) {
                 d.querySelectorAll("[yu-content='sidebar-push-open-20']").item(0).addEventListener('click', function () {
@@ -146,34 +140,29 @@ yu.bars.sidebarContainers = function ()
         d.querySelectorAll("[yu-content='sidebar-push-close-20']").item(0).onclick = function () {
             sidebar_menu.item(0).style.left = "-100%";
             sidebar_content.item(0).style.left = "0%";
+            sidebar_content.item(0).style.width = "100%";
         };
     }
-    else if (d.querySelectorAll("[yu-content='sidebar-push-open-25']").length != 0)
-    {
-        window.matchMedia("(max-width: 768px)").addListener(function ()
-        {
+    else if (d.querySelectorAll("[yu-content='sidebar-push-open-25']").length != 0) {
+        window.matchMedia("(max-width: 768px)").addListener(function () {
             if (window.matchMedia("(max-width: 768px)").matches) {
-                d.querySelectorAll("[yu-content='sidebar-push-open-25']").item(0).onclick = function ()
-                {
+                d.querySelectorAll("[yu-content='sidebar-push-open-25']").item(0).onclick = function () {
                     sidebar_menu.item(0).style.left = "0%";
                     sidebar_content.item(0).style.left = "100%";
                 };
 
-                d.querySelectorAll("[yu-content='sidebar-push-close-25']").item(0).onclick = function ()
-                {
+                d.querySelectorAll("[yu-content='sidebar-push-close-25']").item(0).onclick = function () {
                     sidebar_menu.item(0).style.left = "-100%";
                     sidebar_content.item(0).style.left = "0%";
                 };
             }
             else {
-                d.querySelectorAll("[yu-content='sidebar-push-open-25']").item(0).onclick = function ()
-                {
+                d.querySelectorAll("[yu-content='sidebar-push-open-25']").item(0).onclick = function () {
                     sidebar_menu.item(0).style.left = "0%";
                     sidebar_content.item(0).style.left = "25%";
                 };
 
-                d.querySelectorAll("[yu-content='sidebar-push-close-25']").item(0).onclick = function ()
-                {
+                d.querySelectorAll("[yu-content='sidebar-push-close-25']").item(0).onclick = function () {
                     sidebar_menu.item(0).style.left = "-100%";
                     sidebar_content.item(0).style.left = "0%";
                 };
@@ -182,27 +171,23 @@ yu.bars.sidebarContainers = function ()
 
         window.matchMedia("(max-width: 600px)").addListener(function () {
             if (window.matchMedia("(max-width: 600px)").matches) {
-                d.querySelectorAll("[yu-content='sidebar-push-open-25']").item(0).onclick = function ()
-                {
+                d.querySelectorAll("[yu-content='sidebar-push-open-25']").item(0).onclick = function () {
                     d.querySelectorAll("[yu-container='sidebar-menu']").item(0).style.left = "0%";
                     d.querySelectorAll("[yu-container='sidebar-content']").item(0).style.left = "100%";
                 };
 
-                d.querySelectorAll("[yu-content='sidebar-push-close-25']").item(0).onclick = function ()
-                {
+                d.querySelectorAll("[yu-content='sidebar-push-close-25']").item(0).onclick = function () {
                     d.querySelectorAll("[yu-container='sidebar-menu']").item(0).style.left = "-100%";
                     d.querySelectorAll("[yu-container='sidebar-content']").item(0).style.left = "0%";
                 };
             }
             else {
-                d.querySelectorAll("[yu-content='sidebar-push-open-25']").item(0).onclick = function ()
-                {
+                d.querySelectorAll("[yu-content='sidebar-push-open-25']").item(0).onclick = function () {
                     d.querySelectorAll("[yu-container='sidebar-menu']").item(0).style.left = "0%";
                     d.querySelectorAll("[yu-container='sidebar-content']").item(0).style.left = "25%";
                 };
 
-                d.querySelectorAll("[yu-content='sidebar-push-close-25']").item(0).onclick = function ()
-                {
+                d.querySelectorAll("[yu-content='sidebar-push-close-25']").item(0).onclick = function () {
                     d.querySelectorAll("[yu-container='sidebar-menu']").item(0).style.left = "-100%";
                     d.querySelectorAll("[yu-container='sidebar-content']").item(0).style.left = "0%";
                 };
@@ -215,8 +200,9 @@ yu.bars.sidebarContainers = function ()
         };
 
         d.querySelectorAll("[yu-content='sidebar-push-close-25']").item(0).onclick = function () {
-            d.querySelectorAll("[yu-container='sidebar-menu']").item(0).style.left = "-100%";
-            d.querySelectorAll("[yu-container='sidebar-content']").item(0).style.left = "0%";
+            sidebar_menu.item(0).style.left = "-100%";
+            sidebar_content.item(0).style.left = "0%";
+            sidebar_content.item(0).style.width = "100%";
         };
     }
     else if (d.querySelectorAll("[yu-content='sidebar-open']").length != 0) {
@@ -229,7 +215,7 @@ yu.bars.sidebarContainers = function ()
         };
     }
     else {
-        
+
     }
 };
 
