@@ -9553,14 +9553,14 @@
 }
 
 .sidebar-container .sidebar-content-80 {
-    position: fixed;
+    position: relative;
     display: block;
     width: 80%;
     left: 20%;
 }
 
 .sidebar-container .sidebar-content-75 {
-    position: fixed;
+    position: relative;
     display: block;
     width: 75%;
     left: 25%;
