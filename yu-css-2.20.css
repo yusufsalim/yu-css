@@ -9601,7 +9601,7 @@
 }
 
 .sidebar-container .sidebar-full-content-80 {
-    position: fixed;
+    position: relative;
     display: block;
     width: 80%;
     left: 20%;
@@ -9610,7 +9610,7 @@
 }
 
 .sidebar-container .sidebar-full-content-75 {
-    position: fixed;
+    position: relative;
     display: block;
     width: 75%;
     left: 25%;
@@ -9661,7 +9661,7 @@
 }
 
 .sidebar-container .sidebar-full-content-animate-80 {
-    position: fixed;
+    position: relative;
     display: block;
     width: 80%;
     left: 20%;
@@ -9671,7 +9671,7 @@
 }
 
 .sidebar-container .sidebar-full-content-animate-75 {
-    position: fixed;
+    position: relative;
     display: block;
     width: 75%;
     height: 100%;
@@ -9681,7 +9681,7 @@
 }
 
 .sidebar-container .sidebar-full-content-animate-80 {
-    position: fixed;
+    position: relative;
     display: block;
     width: 100%;
     left: 20%;
@@ -9691,7 +9691,7 @@
 }
 
 .sidebar-container .sidebar-full-content-animate-75 {
-    position: fixed;
+    position: relative;
     display: block;
     width: 100%;
     height: 100%;
