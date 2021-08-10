@@ -9685,8 +9685,8 @@
     display: block;
     width: 100%;
     left: 20%;
+    overflow: hidden;
     height: 100%;
-    overflow: auto;
     transition: .5s;
 }
 
@@ -9695,7 +9695,7 @@
     display: block;
     width: 100%;
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
     left: 25%;
     transition: .5s;
 }
