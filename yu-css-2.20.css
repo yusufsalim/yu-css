@@ -9664,6 +9664,7 @@
     position: relative;
     display: block;
     width: 80%;
+    overflow-x: hidden;
     left: 20%;
     height: 100%;
     transition: .5s;
@@ -9673,6 +9674,7 @@
     position: relative;
     display: block;
     width: 75%;
+    overflow-x: hidden;
     height: 100%;
     left: 25%;
     transition: .5s;
