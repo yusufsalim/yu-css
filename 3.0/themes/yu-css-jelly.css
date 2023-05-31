@@ -1,0 +1,47 @@
+:root {
+    --main-color: #ffbe0b;
+    --accent-color: #fb5607;
+    --secondary-color: #ff006e;
+    --dark-color: #8338ec;
+    --light-color: #3a86ff;
+}
+
+.light-color {
+    color: var(--light-color);
+}
+
+.light-background-color {
+    background-color: var(--light-color);
+}
+
+.dark-color {
+    color: var(--dark-color);
+}
+
+.dark-background-color {
+    background-color: var(--dark-color);
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+.main-background-color {
+    background-color: var(--main-color);
+}
+
+.accent-color {
+    color: var(--accent-color);
+}
+
+.accent-background-color {
+    background-color: var(--accent-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+.secondary-background-color {
+    background-color: var(--secondary-color);
+}
